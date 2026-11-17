@@ -1,3 +1,31 @@
 <resources>
-    <string name="app_name">Pokedex</string>
+    <string name="app_name">Pokédex</string>
+    <string name="search_hint">Search by name or number</string>
+    <string name="clear_search">Clear search</string>
+    <string name="captured_count">%1$d / %2$d</string>
+    <string name="filter_all">All</string>
+    <string name="filter_captured">Captured</string>
+    <string name="filter_missing">Not captured</string>
+    <string name="no_results">No Pokémon match your search</string>
+    <string name="captured">Captured</string>
+    <string name="not_captured">Not captured yet</string>
+    <string name="capture_action">Mark as captured</string>
+    <string name="release_action">Release</string>
+    <string name="back">Back</string>
+    <string name="previous">Previous Pokémon</string>
+    <string name="next">Next Pokémon</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="base_experience">Base exp.</string>
+    <string name="description_title">Pokédex entry</string>
+    <string name="stats_title">Base stats</string>
+    <string name="stat_hp">HP</string>
+    <string name="stat_attack">Attack</string>
+    <string name="stat_defense">Defense</string>
+    <string name="stat_sp_attack">Sp. Atk</string>
+    <string name="stat_sp_defense">Sp. Def</string>
+    <string name="stat_speed">Speed</string>
+    <string name="stat_total">Total</string>
 </resources>

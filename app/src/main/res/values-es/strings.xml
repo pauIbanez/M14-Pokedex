@@ -1,0 +1,28 @@
+<resources>
+    <string name="search_hint">Buscar por nombre o número</string>
+    <string name="clear_search">Borrar búsqueda</string>
+    <string name="filter_all">Todos</string>
+    <string name="filter_captured">Capturados</string>
+    <string name="filter_missing">Sin capturar</string>
+    <string name="no_results">Ningún Pokémon coincide con la búsqueda</string>
+    <string name="captured">Capturado</string>
+    <string name="not_captured">Aún no capturado</string>
+    <string name="capture_action">Marcar como capturado</string>
+    <string name="release_action">Liberar</string>
+    <string name="back">Volver</string>
+    <string name="previous">Pokémon anterior</string>
+    <string name="next">Pokémon siguiente</string>
+    <string name="male">Macho</string>
+    <string name="female">Hembra</string>
+    <string name="height">Altura</string>
+    <string name="weight">Peso</string>
+    <string name="base_experience">Exp. base</string>
+    <string name="description_title">Entrada de la Pokédex</string>
+    <string name="stats_title">Estadísticas base</string>
+    <string name="stat_hp">PS</string>
+    <string name="stat_attack">Ataque</string>
+    <string name="stat_defense">Defensa</string>
+    <string name="stat_sp_attack">At. Esp.</string>
+    <string name="stat_sp_defense">Def. Esp.</string>
+    <string name="stat_speed">Velocidad</string>
+</resources>

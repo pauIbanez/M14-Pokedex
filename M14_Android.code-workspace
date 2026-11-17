@@ -14,7 +14,6 @@
       "**/.kotlin": true,
       "**/build": true,
       "**/*.iml": true,
-      "**/.gitignore": true,
 
       // Gradle plumbing you never edit by hand
       "gradle/wrapper": true,

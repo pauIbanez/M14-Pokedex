@@ -1,0 +1,3984 @@
+{
+  "types": [
+    {
+      "id": "normal",
+      "name": {
+        "en": "Normal",
+        "es": "Normal"
+      },
+      "color": "#A8A878"
+    },
+    {
+      "id": "fighting",
+      "name": {
+        "en": "Fighting",
+        "es": "Lucha"
+      },
+      "color": "#C03028"
+    },
+    {
+      "id": "flying",
+      "name": {
+        "en": "Flying",
+        "es": "Volador"
+      },
+      "color": "#A890F0"
+    },
+    {
+      "id": "poison",
+      "name": {
+        "en": "Poison",
+        "es": "Veneno"
+      },
+      "color": "#A040A0"
+    },
+    {
+      "id": "ground",
+      "name": {
+        "en": "Ground",
+        "es": "Tierra"
+      },
+      "color": "#E0C068"
+    },
+    {
+      "id": "rock",
+      "name": {
+        "en": "Rock",
+        "es": "Roca"
+      },
+      "color": "#B8A038"
+    },
+    {
+      "id": "bug",
+      "name": {
+        "en": "Bug",
+        "es": "Bicho"
+      },
+      "color": "#A8B820"
+    },
+    {
+      "id": "ghost",
+      "name": {
+        "en": "Ghost",
+        "es": "Fantasma"
+      },
+      "color": "#705898"
+    },
+    {
+      "id": "steel",
+      "name": {
+        "en": "Steel",
+        "es": "Acero"
+      },
+      "color": "#B8B8D0"
+    },
+    {
+      "id": "fire",
+      "name": {
+        "en": "Fire",
+        "es": "Fuego"
+      },
+      "color": "#F08030"
+    },
+    {
+      "id": "water",
+      "name": {
+        "en": "Water",
+        "es": "Agua"
+      },
+      "color": "#6890F0"
+    },
+    {
+      "id": "grass",
+      "name": {
+        "en": "Grass",
+        "es": "Planta"
+      },
+      "color": "#78C850"
+    },
+    {
+      "id": "electric",
+      "name": {
+        "en": "Electric",
+        "es": "Eléctrico"
+      },
+      "color": "#F8D030"
+    },
+    {
+      "id": "psychic",
+      "name": {
+        "en": "Psychic",
+        "es": "Psíquico"
+      },
+      "color": "#F85888"
+    },
+    {
+      "id": "ice",
+      "name": {
+        "en": "Ice",
+        "es": "Hielo"
+      },
+      "color": "#98D8D8"
+    },
+    {
+      "id": "dragon",
+      "name": {
+        "en": "Dragon",
+        "es": "Dragón"
+      },
+      "color": "#7038F8"
+    },
+    {
+      "id": "fairy",
+      "name": {
+        "en": "Fairy",
+        "es": "Hada"
+      },
+      "color": "#EE99AC"
+    }
+  ],
+  "pokemon": [
+    {
+      "id": 1,
+      "identifier": "bulbasaur",
+      "name": "Bulbasaur",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "height": 0.7,
+      "weight": 6.9,
+      "baseExperience": 64,
+      "stats": {
+        "hp": 45,
+        "attack": 49,
+        "defense": 49,
+        "specialAttack": 65,
+        "specialDefense": 65,
+        "speed": 45
+      },
+      "description": {
+        "es": "Una rara semilla le fue plantada en el lomo al nacer. La planta brota y crece con este Pokémon.",
+        "en": "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon."
+      },
+      "sprite": "sprites/001.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 2,
+      "identifier": "ivysaur",
+      "name": "Ivysaur",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "height": 1.0,
+      "weight": 13.0,
+      "baseExperience": 142,
+      "stats": {
+        "hp": 60,
+        "attack": 62,
+        "defense": 63,
+        "specialAttack": 80,
+        "specialDefense": 80,
+        "speed": 60
+      },
+      "description": {
+        "es": "Este Pokémon tiene un bulbo en el lomo. Dicen que, al absorber nutrientes, el bulbo se transforma en una flor grande.",
+        "en": "There is a plant bulb on its back. When it absorbs nutrients, the bulb is said to blossom into a large flower."
+      },
+      "sprite": "sprites/002.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 3,
+      "identifier": "venusaur",
+      "name": "Venusaur",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "height": 2.0,
+      "weight": 100.0,
+      "baseExperience": 236,
+      "stats": {
+        "hp": 80,
+        "attack": 82,
+        "defense": 83,
+        "specialAttack": 100,
+        "specialDefense": 100,
+        "speed": 80
+      },
+      "description": {
+        "es": "Llena su cuerpo de energía con los rayos solares que captan los anchos pétalos de su flor.",
+        "en": "By spreading the broad petals of its flower and catching the sun’s rays, it fills its body with power."
+      },
+      "sprite": "sprites/003.png",
+      "spriteFemale": "sprites/003f.png"
+    },
+    {
+      "id": 4,
+      "identifier": "charmander",
+      "name": "Charmander",
+      "types": [
+        "fire"
+      ],
+      "height": 0.6,
+      "weight": 8.5,
+      "baseExperience": 62,
+      "stats": {
+        "hp": 39,
+        "attack": 52,
+        "defense": 43,
+        "specialAttack": 60,
+        "specialDefense": 50,
+        "speed": 65
+      },
+      "description": {
+        "es": "La llama de su cola indica la fuerza vital de Charmander. Será brillante si está sano.",
+        "en": "The flame on its tail indicates Charmander’s life force. If it is healthy, the flame burns brightly."
+      },
+      "sprite": "sprites/004.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 5,
+      "identifier": "charmeleon",
+      "name": "Charmeleon",
+      "types": [
+        "fire"
+      ],
+      "height": 1.1,
+      "weight": 19.0,
+      "baseExperience": 142,
+      "stats": {
+        "hp": 58,
+        "attack": 64,
+        "defense": 58,
+        "specialAttack": 80,
+        "specialDefense": 65,
+        "speed": 80
+      },
+      "description": {
+        "es": "Suele usar la cola para derribar a su rival. Cuando lo tira, se vale de sus afiladas garras para acabar con él.",
+        "en": "It lashes about with its tail to knock down its foe. It then tears up the fallen opponent with sharp claws."
+      },
+      "sprite": "sprites/005.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 6,
+      "identifier": "charizard",
+      "name": "Charizard",
+      "types": [
+        "fire",
+        "flying"
+      ],
+      "height": 1.7,
+      "weight": 90.5,
+      "baseExperience": 240,
+      "stats": {
+        "hp": 78,
+        "attack": 84,
+        "defense": 78,
+        "specialAttack": 109,
+        "specialDefense": 85,
+        "speed": 100
+      },
+      "description": {
+        "es": "Cuando lanza una descarga de fuego supercaliente, la roja llama de su cola brilla más intensamente.",
+        "en": "When expelling a blast of superhot fire, the red flame at the tip of its tail burns more intensely."
+      },
+      "sprite": "sprites/006.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 7,
+      "identifier": "squirtle",
+      "name": "Squirtle",
+      "types": [
+        "water"
+      ],
+      "height": 0.5,
+      "weight": 9.0,
+      "baseExperience": 63,
+      "stats": {
+        "hp": 44,
+        "attack": 48,
+        "defense": 65,
+        "specialAttack": 50,
+        "specialDefense": 64,
+        "speed": 43
+      },
+      "description": {
+        "es": "Se protege con su caparazón y luego contraataca lanzando agua a presión cuando tiene oportunidad.",
+        "en": "It shelters itself in its shell, then strikes back with spouts of water at every opportunity."
+      },
+      "sprite": "sprites/007.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 8,
+      "identifier": "wartortle",
+      "name": "Wartortle",
+      "types": [
+        "water"
+      ],
+      "height": 1.0,
+      "weight": 22.5,
+      "baseExperience": 142,
+      "stats": {
+        "hp": 59,
+        "attack": 63,
+        "defense": 80,
+        "specialAttack": 65,
+        "specialDefense": 80,
+        "speed": 58
+      },
+      "description": {
+        "es": "Si es golpeado, esconderá su cabeza. Aun así, su cola puede seguir golpeando.",
+        "en": "When tapped, this Pokémon will pull in its head, but its tail will still stick out a little bit."
+      },
+      "sprite": "sprites/008.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 9,
+      "identifier": "blastoise",
+      "name": "Blastoise",
+      "types": [
+        "water"
+      ],
+      "height": 1.6,
+      "weight": 85.5,
+      "baseExperience": 239,
+      "stats": {
+        "hp": 79,
+        "attack": 83,
+        "defense": 100,
+        "specialAttack": 85,
+        "specialDefense": 105,
+        "speed": 78
+      },
+      "description": {
+        "es": "Para acabar con su enemigo, lo aplasta con el peso de su cuerpo. En momentos de apuro, se esconde en el caparazón.",
+        "en": "It crushes its foe under its heavy body to cause fainting. In a pinch, it will withdraw inside its shell."
+      },
+      "sprite": "sprites/009.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 10,
+      "identifier": "caterpie",
+      "name": "Caterpie",
+      "types": [
+        "bug"
+      ],
+      "height": 0.3,
+      "weight": 2.9,
+      "baseExperience": 39,
+      "stats": {
+        "hp": 45,
+        "attack": 30,
+        "defense": 35,
+        "specialAttack": 20,
+        "specialDefense": 20,
+        "speed": 45
+      },
+      "description": {
+        "es": "Para protegerse despide un hedor horrible de sus antenas, con el que repele a sus enemigos.",
+        "en": "For protection, it releases a horrible stench from the antennae on its head to drive away enemies."
+      },
+      "sprite": "sprites/010.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 11,
+      "identifier": "metapod",
+      "name": "Metapod",
+      "types": [
+        "bug"
+      ],
+      "height": 0.7,
+      "weight": 9.9,
+      "baseExperience": 72,
+      "stats": {
+        "hp": 50,
+        "attack": 20,
+        "defense": 55,
+        "specialAttack": 25,
+        "specialDefense": 25,
+        "speed": 30
+      },
+      "description": {
+        "es": "Su frágil cuerpo está recubierto de una coraza dura como el acero. Permanece quieto en su desarrollo.",
+        "en": "A steel-hard shell protects its tender body. It quietly endures hardships while awaiting evolution."
+      },
+      "sprite": "sprites/011.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 12,
+      "identifier": "butterfree",
+      "name": "Butterfree",
+      "types": [
+        "bug",
+        "flying"
+      ],
+      "height": 1.1,
+      "weight": 32.0,
+      "baseExperience": 178,
+      "stats": {
+        "hp": 60,
+        "attack": 45,
+        "defense": 50,
+        "specialAttack": 90,
+        "specialDefense": 80,
+        "speed": 70
+      },
+      "description": {
+        "es": "Adora el néctar de las flores. Puede localizar hasta las más pequeñas cantidades de polen.",
+        "en": "It loves the honey of flowers and can locate flower patches that have even tiny amounts of pollen."
+      },
+      "sprite": "sprites/012.png",
+      "spriteFemale": "sprites/012f.png"
+    },
+    {
+      "id": 13,
+      "identifier": "weedle",
+      "name": "Weedle",
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "height": 0.3,
+      "weight": 3.2,
+      "baseExperience": 39,
+      "stats": {
+        "hp": 40,
+        "attack": 35,
+        "defense": 30,
+        "specialAttack": 20,
+        "specialDefense": 20,
+        "speed": 50
+      },
+      "description": {
+        "es": "Suele habitar bosques y praderas. Tiene un afilado y venenoso aguijón de unos 5 cm encima de la cabeza.",
+        "en": "Often found in forests and grasslands. It has a sharp, toxic barb of around two inches on top of its head."
+      },
+      "sprite": "sprites/013.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 14,
+      "identifier": "kakuna",
+      "name": "Kakuna",
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "height": 0.6,
+      "weight": 10.0,
+      "baseExperience": 72,
+      "stats": {
+        "hp": 45,
+        "attack": 25,
+        "defense": 50,
+        "specialAttack": 25,
+        "specialDefense": 25,
+        "speed": 35
+      },
+      "description": {
+        "es": "Casi incapaz de moverse, este Pokémon solo puede endurecer su caparazón para protegerse.",
+        "en": "Almost incapable of moving, this Pokémon can only harden its shell to protect itself when it is in danger."
+      },
+      "sprite": "sprites/014.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 15,
+      "identifier": "beedrill",
+      "name": "Beedrill",
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "height": 1.0,
+      "weight": 29.5,
+      "baseExperience": 178,
+      "stats": {
+        "hp": 65,
+        "attack": 90,
+        "defense": 40,
+        "specialAttack": 45,
+        "specialDefense": 80,
+        "speed": 75
+      },
+      "description": {
+        "es": "Tiene 3 aguijones venenosos en sus patas y cola. Suelen pinchar a sus enemigos repetidas veces.",
+        "en": "It has three poisonous stingers on its forelegs and its tail. They are used to jab its enemy repeatedly."
+      },
+      "sprite": "sprites/015.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 16,
+      "identifier": "pidgey",
+      "name": "Pidgey",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "height": 0.3,
+      "weight": 1.8,
+      "baseExperience": 50,
+      "stats": {
+        "hp": 40,
+        "attack": 45,
+        "defense": 40,
+        "specialAttack": 35,
+        "specialDefense": 35,
+        "speed": 56
+      },
+      "description": {
+        "es": "Muy común en bosques y selvas. Aletea al nivel del suelo para levantar la gravilla.",
+        "en": "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand."
+      },
+      "sprite": "sprites/016.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 17,
+      "identifier": "pidgeotto",
+      "name": "Pidgeotto",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "height": 1.1,
+      "weight": 30.0,
+      "baseExperience": 122,
+      "stats": {
+        "hp": 63,
+        "attack": 60,
+        "defense": 55,
+        "specialAttack": 50,
+        "specialDefense": 50,
+        "speed": 71
+      },
+      "description": {
+        "es": "Tiene unas garras desarrolladas. Puede atrapar un Exeggcute y transportarlo desde una distancia de casi 100 km.",
+        "en": "The claws on its feet are well developed. It can carry prey such as an Exeggcute to its nest over 60 miles away."
+      },
+      "sprite": "sprites/017.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 18,
+      "identifier": "pidgeot",
+      "name": "Pidgeot",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "height": 1.5,
+      "weight": 39.5,
+      "baseExperience": 216,
+      "stats": {
+        "hp": 83,
+        "attack": 80,
+        "defense": 75,
+        "specialAttack": 70,
+        "specialDefense": 70,
+        "speed": 101
+      },
+      "description": {
+        "es": "Cuando caza, vuela muy deprisa a ras del agua y sorprende a inocentes presas como Magikarp.",
+        "en": "When hunting, it skims the surface of water at high speed to pick off unwary prey such as Magikarp."
+      },
+      "sprite": "sprites/018.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 19,
+      "identifier": "rattata",
+      "name": "Rattata",
+      "types": [
+        "normal"
+      ],
+      "height": 0.3,
+      "weight": 3.5,
+      "baseExperience": 51,
+      "stats": {
+        "hp": 30,
+        "attack": 56,
+        "defense": 35,
+        "specialAttack": 25,
+        "specialDefense": 35,
+        "speed": 72
+      },
+      "description": {
+        "es": "Vive allí donde haya comida disponible. Busca todo el día, sin descanso, algo comestible.",
+        "en": "Living wherever there is food available, it ceaselessly scavenges for edibles the entire day."
+      },
+      "sprite": "sprites/019.png",
+      "spriteFemale": "sprites/019f.png"
+    },
+    {
+      "id": 20,
+      "identifier": "raticate",
+      "name": "Raticate",
+      "types": [
+        "normal"
+      ],
+      "height": 0.7,
+      "weight": 18.5,
+      "baseExperience": 145,
+      "stats": {
+        "hp": 55,
+        "attack": 81,
+        "defense": 60,
+        "specialAttack": 50,
+        "specialDefense": 70,
+        "speed": 97
+      },
+      "description": {
+        "es": "Lima sus colmillos royendo objetos duros. Con ellos puede destruir incluso paredes de hormigón.",
+        "en": "It whittles its constantly growing fangs by gnawing on hard things. It can chew apart cinder walls."
+      },
+      "sprite": "sprites/020.png",
+      "spriteFemale": "sprites/020f.png"
+    },
+    {
+      "id": 21,
+      "identifier": "spearow",
+      "name": "Spearow",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "height": 0.3,
+      "weight": 2.0,
+      "baseExperience": 52,
+      "stats": {
+        "hp": 40,
+        "attack": 60,
+        "defense": 30,
+        "specialAttack": 31,
+        "specialDefense": 31,
+        "speed": 70
+      },
+      "description": {
+        "es": "Muy protector de su territorio, mueve sus cortas alas sin descanso para lanzarse a toda velocidad.",
+        "en": "Very protective of its territory, it flaps its short wings busily to dart around at high speed."
+      },
+      "sprite": "sprites/021.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 22,
+      "identifier": "fearow",
+      "name": "Fearow",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "height": 1.2,
+      "weight": 38.0,
+      "baseExperience": 155,
+      "stats": {
+        "hp": 65,
+        "attack": 90,
+        "defense": 65,
+        "specialAttack": 61,
+        "specialDefense": 61,
+        "speed": 100
+      },
+      "description": {
+        "es": "Con sus enormes y magníficas alas, puede seguir volando sin tener que aterrizar para descansar.",
+        "en": "With its huge and magnificent wings, it can keep aloft without ever having to land for rest."
+      },
+      "sprite": "sprites/022.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 23,
+      "identifier": "ekans",
+      "name": "Ekans",
+      "types": [
+        "poison"
+      ],
+      "height": 2.0,
+      "weight": 6.9,
+      "baseExperience": 58,
+      "stats": {
+        "hp": 35,
+        "attack": 60,
+        "defense": 44,
+        "specialAttack": 40,
+        "specialDefense": 54,
+        "speed": 55
+      },
+      "description": {
+        "es": "Cuanto más viejo, más crece este Pokémon. Por la noche, descansa en las ramas de los árboles.",
+        "en": "The older it gets, the longer it grows. At night, it wraps its long body around tree branches to rest."
+      },
+      "sprite": "sprites/023.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 24,
+      "identifier": "arbok",
+      "name": "Arbok",
+      "types": [
+        "poison"
+      ],
+      "height": 3.5,
+      "weight": 65.0,
+      "baseExperience": 157,
+      "stats": {
+        "hp": 60,
+        "attack": 95,
+        "defense": 69,
+        "specialAttack": 65,
+        "specialDefense": 79,
+        "speed": 80
+      },
+      "description": {
+        "es": "El dibujo que tiene en la panza aterroriza. Los rivales más débiles salen huyendo al verlo.",
+        "en": "The pattern on its belly appears to be a frightening face. Weak foes will flee just at the sight of the pattern."
+      },
+      "sprite": "sprites/024.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 25,
+      "identifier": "pikachu",
+      "name": "Pikachu",
+      "types": [
+        "electric"
+      ],
+      "height": 0.4,
+      "weight": 6.0,
+      "baseExperience": 112,
+      "stats": {
+        "hp": 35,
+        "attack": 55,
+        "defense": 40,
+        "specialAttack": 50,
+        "specialDefense": 50,
+        "speed": 90
+      },
+      "description": {
+        "es": "Levanta su cola para vigilar los alrededores. A veces, puede ser alcanzado por un rayo en esa pose.",
+        "en": "It raises its tail to check its surroundings. The tail is sometimes struck by lightning in this pose."
+      },
+      "sprite": "sprites/025.png",
+      "spriteFemale": "sprites/025f.png"
+    },
+    {
+      "id": 26,
+      "identifier": "raichu",
+      "name": "Raichu",
+      "types": [
+        "electric"
+      ],
+      "height": 0.8,
+      "weight": 30.0,
+      "baseExperience": 218,
+      "stats": {
+        "hp": 60,
+        "attack": 90,
+        "defense": 55,
+        "specialAttack": 90,
+        "specialDefense": 80,
+        "speed": 110
+      },
+      "description": {
+        "es": "Cuando se carga de electricidad, sus músculos se tensan y se vuelve más agresivo de lo normal.",
+        "en": "When its electricity builds, its muscles are stimulated, and it becomes more aggressive than usual."
+      },
+      "sprite": "sprites/026.png",
+      "spriteFemale": "sprites/026f.png"
+    },
+    {
+      "id": 27,
+      "identifier": "sandshrew",
+      "name": "Sandshrew",
+      "types": [
+        "ground"
+      ],
+      "height": 0.6,
+      "weight": 12.0,
+      "baseExperience": 60,
+      "stats": {
+        "hp": 50,
+        "attack": 75,
+        "defense": 85,
+        "specialAttack": 20,
+        "specialDefense": 30,
+        "speed": 40
+      },
+      "description": {
+        "es": "Este Pokémon permanece bajo tierra. Si se siente amenazado, se enrosca para defenderse.",
+        "en": "It burrows and lives underground. If threatened, it curls itself up into a ball for protection."
+      },
+      "sprite": "sprites/027.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 28,
+      "identifier": "sandslash",
+      "name": "Sandslash",
+      "types": [
+        "ground"
+      ],
+      "height": 1.0,
+      "weight": 29.5,
+      "baseExperience": 158,
+      "stats": {
+        "hp": 75,
+        "attack": 100,
+        "defense": 110,
+        "specialAttack": 45,
+        "specialDefense": 55,
+        "speed": 65
+      },
+      "description": {
+        "es": "Si cava a gran velocidad, puede que se le caigan las garras y púas. Vuelven a crecerle en un día.",
+        "en": "If it digs at an incredible pace, it may snap off its spikes and claws. They grow back in a day."
+      },
+      "sprite": "sprites/028.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 29,
+      "identifier": "nidoran-f",
+      "name": "Nidoran♀",
+      "types": [
+        "poison"
+      ],
+      "height": 0.4,
+      "weight": 7.0,
+      "baseExperience": 55,
+      "stats": {
+        "hp": 55,
+        "attack": 47,
+        "defense": 52,
+        "specialAttack": 40,
+        "specialDefense": 40,
+        "speed": 41
+      },
+      "description": {
+        "es": "Aunque pequeñas, sus venenosas púas son muy peligrosas. Tienen un cuerno más pequeño que los machos.",
+        "en": "Although small, its venomous barbs render this Pokémon dangerous. The female has smaller horns."
+      },
+      "sprite": "sprites/029.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 30,
+      "identifier": "nidorina",
+      "name": "Nidorina",
+      "types": [
+        "poison"
+      ],
+      "height": 0.8,
+      "weight": 20.0,
+      "baseExperience": 128,
+      "stats": {
+        "hp": 70,
+        "attack": 62,
+        "defense": 67,
+        "specialAttack": 55,
+        "specialDefense": 55,
+        "speed": 56
+      },
+      "description": {
+        "es": "Tiene un carácter afable. Emite ondas ultrasónicas para confundir al enemigo.",
+        "en": "The female has a gentle temperament. It emits ultrasonic cries that have the power to befuddle foes."
+      },
+      "sprite": "sprites/030.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 31,
+      "identifier": "nidoqueen",
+      "name": "Nidoqueen",
+      "types": [
+        "poison",
+        "ground"
+      ],
+      "height": 1.3,
+      "weight": 60.0,
+      "baseExperience": 227,
+      "stats": {
+        "hp": 90,
+        "attack": 92,
+        "defense": 87,
+        "specialAttack": 75,
+        "specialDefense": 85,
+        "speed": 76
+      },
+      "description": {
+        "es": "Usa su cuerpo duro y escamoso para sellar la entrada a su madriguera y protegerse de los depredadores.",
+        "en": "It uses its scaly, rugged body to seal the entrance of its nest and protect its young from predators."
+      },
+      "sprite": "sprites/031.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 32,
+      "identifier": "nidoran-m",
+      "name": "Nidoran♂",
+      "types": [
+        "poison"
+      ],
+      "height": 0.5,
+      "weight": 9.0,
+      "baseExperience": 55,
+      "stats": {
+        "hp": 46,
+        "attack": 57,
+        "defense": 40,
+        "specialAttack": 40,
+        "specialDefense": 40,
+        "speed": 50
+      },
+      "description": {
+        "es": "Saca las orejas por encima de la hierba para explorar el territorio. Le protege su cuerno venenoso.",
+        "en": "It scans its surroundings by raising its ears out of the grass. Its toxic horn is for protection."
+      },
+      "sprite": "sprites/032.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 33,
+      "identifier": "nidorino",
+      "name": "Nidorino",
+      "types": [
+        "poison"
+      ],
+      "height": 0.9,
+      "weight": 19.5,
+      "baseExperience": 128,
+      "stats": {
+        "hp": 61,
+        "attack": 72,
+        "defense": 57,
+        "specialAttack": 55,
+        "specialDefense": 55,
+        "speed": 65
+      },
+      "description": {
+        "es": "Levanta sus grandes orejas para vigilar. Si detecta algo, atacará de inmediato.",
+        "en": "It raises its big ears to check its surroundings. If it senses anything, it attacks immediately."
+      },
+      "sprite": "sprites/033.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 34,
+      "identifier": "nidoking",
+      "name": "Nidoking",
+      "types": [
+        "poison",
+        "ground"
+      ],
+      "height": 1.4,
+      "weight": 62.0,
+      "baseExperience": 227,
+      "stats": {
+        "hp": 81,
+        "attack": 102,
+        "defense": 77,
+        "specialAttack": 85,
+        "specialDefense": 75,
+        "speed": 85
+      },
+      "description": {
+        "es": "Es fácil reconocerlo por tener una dura piel y un gran cuerno lleno de peligrosísimo veneno.",
+        "en": "It is recognized by its rock-hard hide and its extended horn. Be careful with the horn, as it contains venom."
+      },
+      "sprite": "sprites/034.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 35,
+      "identifier": "clefairy",
+      "name": "Clefairy",
+      "types": [
+        "fairy"
+      ],
+      "height": 0.6,
+      "weight": 7.5,
+      "baseExperience": 113,
+      "stats": {
+        "hp": 70,
+        "attack": 45,
+        "defense": 48,
+        "specialAttack": 60,
+        "specialDefense": 65,
+        "speed": 35
+      },
+      "description": {
+        "es": "Se dice que la felicidad llegará a quien vea a un grupo de Clefairy bailando a la luz de la luna llena.",
+        "en": "It is said that happiness will come to those who see a gathering of Clefairy dancing under a full moon."
+      },
+      "sprite": "sprites/035.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 36,
+      "identifier": "clefable",
+      "name": "Clefable",
+      "types": [
+        "fairy"
+      ],
+      "height": 1.3,
+      "weight": 40.0,
+      "baseExperience": 217,
+      "stats": {
+        "hp": 95,
+        "attack": 70,
+        "defense": 73,
+        "specialAttack": 95,
+        "specialDefense": 90,
+        "speed": 60
+      },
+      "description": {
+        "es": "Su oído es tan agudo que puede oír una aguja caer a 1 km. Vive en montañas solitarias.",
+        "en": "Its hearing is so acute it can hear a pin drop over half a mile away. It lives on quiet mountains."
+      },
+      "sprite": "sprites/036.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 37,
+      "identifier": "vulpix",
+      "name": "Vulpix",
+      "types": [
+        "fire"
+      ],
+      "height": 0.6,
+      "weight": 9.9,
+      "baseExperience": 60,
+      "stats": {
+        "hp": 38,
+        "attack": 41,
+        "defense": 40,
+        "specialAttack": 50,
+        "specialDefense": 65,
+        "speed": 65
+      },
+      "description": {
+        "es": "Cuando nace solo tiene una cola, pero a medida que crece, esta se va dividiendo desde la punta.",
+        "en": "When it is born, it has just one snow-white tail. The tail splits from its tip as it grows older."
+      },
+      "sprite": "sprites/037.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 38,
+      "identifier": "ninetales",
+      "name": "Ninetales",
+      "types": [
+        "fire"
+      ],
+      "height": 1.1,
+      "weight": 19.9,
+      "baseExperience": 177,
+      "stats": {
+        "hp": 73,
+        "attack": 76,
+        "defense": 75,
+        "specialAttack": 81,
+        "specialDefense": 100,
+        "speed": 100
+      },
+      "description": {
+        "es": "Tiene nueve colas y un pelaje de color dorado. Dicen que este Pokémon llega a vivir 1000 años.",
+        "en": "It has nine long tails and fur that gleams gold. It is said to live for 1,000 years."
+      },
+      "sprite": "sprites/038.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 39,
+      "identifier": "jigglypuff",
+      "name": "Jigglypuff",
+      "types": [
+        "normal",
+        "fairy"
+      ],
+      "height": 0.5,
+      "weight": 5.5,
+      "baseExperience": 95,
+      "stats": {
+        "hp": 115,
+        "attack": 45,
+        "defense": 20,
+        "specialAttack": 45,
+        "specialDefense": 25,
+        "speed": 20
+      },
+      "description": {
+        "es": "Cautiva con la mirada a su enemigo y hace que se quede profundamente dormido mientras entona una dulce melodía.",
+        "en": "It captivates foes with its huge, round eyes, then lulls them to sleep by singing a soothing melody."
+      },
+      "sprite": "sprites/039.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 40,
+      "identifier": "wigglytuff",
+      "name": "Wigglytuff",
+      "types": [
+        "normal",
+        "fairy"
+      ],
+      "height": 1.0,
+      "weight": 12.0,
+      "baseExperience": 196,
+      "stats": {
+        "hp": 140,
+        "attack": 70,
+        "defense": 45,
+        "specialAttack": 85,
+        "specialDefense": 50,
+        "speed": 45
+      },
+      "description": {
+        "es": "Su piel es tan suave que si dos de ellos se acurrucan juntos, no querrán separarse nunca.",
+        "en": "Their fur feels so good that if two of them snuggle together, they won’t want to be separated."
+      },
+      "sprite": "sprites/040.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 41,
+      "identifier": "zubat",
+      "name": "Zubat",
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "height": 0.8,
+      "weight": 7.5,
+      "baseExperience": 49,
+      "stats": {
+        "hp": 40,
+        "attack": 45,
+        "defense": 35,
+        "specialAttack": 30,
+        "specialDefense": 40,
+        "speed": 55
+      },
+      "description": {
+        "es": "Aunque carezca de ojos, puede detectar obstáculos con las ondas ultrasónicas que emite su boca.",
+        "en": "Even though it has no eyes, it can sense obstacles using ultrasonic waves it emits from its mouth."
+      },
+      "sprite": "sprites/041.png",
+      "spriteFemale": "sprites/041f.png"
+    },
+    {
+      "id": 42,
+      "identifier": "golbat",
+      "name": "Golbat",
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "height": 1.6,
+      "weight": 55.0,
+      "baseExperience": 159,
+      "stats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 70,
+        "specialAttack": 65,
+        "specialDefense": 75,
+        "speed": 90
+      },
+      "description": {
+        "es": "Cuando ataque, seguirá chupando energía de su víctima, aunque pese tanto que ya no pueda volar.",
+        "en": "Once it bites, it will not stop draining energy from the victim even if it gets too heavy to fly."
+      },
+      "sprite": "sprites/042.png",
+      "spriteFemale": "sprites/042f.png"
+    },
+    {
+      "id": 43,
+      "identifier": "oddish",
+      "name": "Oddish",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "height": 0.5,
+      "weight": 5.4,
+      "baseExperience": 64,
+      "stats": {
+        "hp": 45,
+        "attack": 50,
+        "defense": 55,
+        "specialAttack": 75,
+        "specialDefense": 65,
+        "speed": 30
+      },
+      "description": {
+        "es": "Durante el día, se agazapa en el frío subsuelo huyendo del sol. La luz de la luna le hace crecer mucho.",
+        "en": "During the day, it stays in the cold underground to avoid the sun. It grows by bathing in moonlight."
+      },
+      "sprite": "sprites/043.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 44,
+      "identifier": "gloom",
+      "name": "Gloom",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "height": 0.8,
+      "weight": 8.6,
+      "baseExperience": 138,
+      "stats": {
+        "hp": 60,
+        "attack": 65,
+        "defense": 70,
+        "specialAttack": 85,
+        "specialDefense": 75,
+        "speed": 40
+      },
+      "description": {
+        "es": "¡Huele bastante mal! De todas formas, una de cada mil personas aprecian su fétido olor.",
+        "en": "Smells incredibly foul! However, around one out of a thousand people enjoy sniffing its nose-bending stink."
+      },
+      "sprite": "sprites/044.png",
+      "spriteFemale": "sprites/044f.png"
+    },
+    {
+      "id": 45,
+      "identifier": "vileplume",
+      "name": "Vileplume",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "height": 1.2,
+      "weight": 18.6,
+      "baseExperience": 221,
+      "stats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 85,
+        "specialAttack": 110,
+        "specialDefense": 90,
+        "speed": 50
+      },
+      "description": {
+        "es": "Cuanto mayores son sus pétalos, más tóxico es su polen. Le pesa la cabeza y le cuesta mantenerla erguida.",
+        "en": "The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up."
+      },
+      "sprite": "sprites/045.png",
+      "spriteFemale": "sprites/045f.png"
+    },
+    {
+      "id": 46,
+      "identifier": "paras",
+      "name": "Paras",
+      "types": [
+        "bug",
+        "grass"
+      ],
+      "height": 0.3,
+      "weight": 5.4,
+      "baseExperience": 57,
+      "stats": {
+        "hp": 35,
+        "attack": 70,
+        "defense": 55,
+        "specialAttack": 45,
+        "specialDefense": 55,
+        "speed": 25
+      },
+      "description": {
+        "es": "Lleva en el lomo dos setas parásitas llamadas tochukaso, que crecen con él.",
+        "en": "Growing out of the bug’s back are mushrooms called tochukaso. The mushrooms grow with the bug host."
+      },
+      "sprite": "sprites/046.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 47,
+      "identifier": "parasect",
+      "name": "Parasect",
+      "types": [
+        "bug",
+        "grass"
+      ],
+      "height": 1.0,
+      "weight": 29.5,
+      "baseExperience": 142,
+      "stats": {
+        "hp": 60,
+        "attack": 95,
+        "defense": 80,
+        "specialAttack": 60,
+        "specialDefense": 80,
+        "speed": 30
+      },
+      "description": {
+        "es": "Parasect está dominado por una seta parásita mayor que él. Dispersa esporas venenosas.",
+        "en": "A mushroom grown larger than the host’s body controls Parasect. It scatters poisonous spores."
+      },
+      "sprite": "sprites/047.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 48,
+      "identifier": "venonat",
+      "name": "Venonat",
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "height": 1.0,
+      "weight": 30.0,
+      "baseExperience": 61,
+      "stats": {
+        "hp": 60,
+        "attack": 55,
+        "defense": 50,
+        "specialAttack": 40,
+        "specialDefense": 55,
+        "speed": 45
+      },
+      "description": {
+        "es": "Sus grandes ojos son en realidad grupos de ojos diminutos. Por la noche se siente atraído por la luz.",
+        "en": "Its big eyes are actually clusters of tiny eyes. At night, its kind is drawn by light."
+      },
+      "sprite": "sprites/048.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 49,
+      "identifier": "venomoth",
+      "name": "Venomoth",
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "height": 1.5,
+      "weight": 12.5,
+      "baseExperience": 158,
+      "stats": {
+        "hp": 70,
+        "attack": 65,
+        "defense": 60,
+        "specialAttack": 90,
+        "specialDefense": 75,
+        "speed": 90
+      },
+      "description": {
+        "es": "Lanza unas escamas que paralizan a cualquiera. Quien las toque, no podrá ni ponerse de pie.",
+        "en": "The scales it scatters will paralyze anyone who touches them, making that person unable to stand."
+      },
+      "sprite": "sprites/049.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 50,
+      "identifier": "diglett",
+      "name": "Diglett",
+      "types": [
+        "ground"
+      ],
+      "height": 0.2,
+      "weight": 0.8,
+      "baseExperience": 53,
+      "stats": {
+        "hp": 10,
+        "attack": 55,
+        "defense": 25,
+        "specialAttack": 35,
+        "specialDefense": 45,
+        "speed": 95
+      },
+      "description": {
+        "es": "Vive un metro por debajo del suelo, donde se alimenta de raíces. También aparece en la superficie.",
+        "en": "Lives about one yard underground where it feeds on plant roots. It sometimes appears aboveground."
+      },
+      "sprite": "sprites/050.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 51,
+      "identifier": "dugtrio",
+      "name": "Dugtrio",
+      "types": [
+        "ground"
+      ],
+      "height": 0.7,
+      "weight": 33.3,
+      "baseExperience": 149,
+      "stats": {
+        "hp": 35,
+        "attack": 100,
+        "defense": 50,
+        "specialAttack": 50,
+        "specialDefense": 70,
+        "speed": 120
+      },
+      "description": {
+        "es": "En combate, cava la tierra, se esconde y sale de repente para golpear a su rival. Nunca se sabe por dónde puede aparecer.",
+        "en": "In battle, it digs through the ground and strikes the unsuspecting foe from an unexpected direction."
+      },
+      "sprite": "sprites/051.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 52,
+      "identifier": "meowth",
+      "name": "Meowth",
+      "types": [
+        "normal"
+      ],
+      "height": 0.4,
+      "weight": 4.2,
+      "baseExperience": 58,
+      "stats": {
+        "hp": 40,
+        "attack": 45,
+        "defense": 35,
+        "specialAttack": 40,
+        "specialDefense": 40,
+        "speed": 90
+      },
+      "description": {
+        "es": "Es de naturaleza nocturna. Le atraen los objetos brillantes.",
+        "en": "It is nocturnal in nature. If it spots something shiny, its eyes glitter brightly."
+      },
+      "sprite": "sprites/052.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 53,
+      "identifier": "persian",
+      "name": "Persian",
+      "types": [
+        "normal"
+      ],
+      "height": 1.0,
+      "weight": 32.0,
+      "baseExperience": 154,
+      "stats": {
+        "hp": 65,
+        "attack": 70,
+        "defense": 60,
+        "specialAttack": 65,
+        "specialDefense": 65,
+        "speed": 115
+      },
+      "description": {
+        "es": "Aunque es muy admirado por el pelo, es difícil de entrenar como mascota, porque es un poco travieso.",
+        "en": "Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness."
+      },
+      "sprite": "sprites/053.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 54,
+      "identifier": "psyduck",
+      "name": "Psyduck",
+      "types": [
+        "water"
+      ],
+      "height": 0.8,
+      "weight": 19.6,
+      "baseExperience": 64,
+      "stats": {
+        "hp": 50,
+        "attack": 52,
+        "defense": 48,
+        "specialAttack": 65,
+        "specialDefense": 50,
+        "speed": 55
+      },
+      "description": {
+        "es": "Padece continuamente dolores de cabeza. Cuando son muy fuertes, empieza a usar misteriosos poderes.",
+        "en": "It is constantly wracked by a headache. When the headache turns intense, it begins using mysterious powers."
+      },
+      "sprite": "sprites/054.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 55,
+      "identifier": "golduck",
+      "name": "Golduck",
+      "types": [
+        "water"
+      ],
+      "height": 1.7,
+      "weight": 76.6,
+      "baseExperience": 175,
+      "stats": {
+        "hp": 80,
+        "attack": 82,
+        "defense": 78,
+        "specialAttack": 95,
+        "specialDefense": 80,
+        "speed": 85
+      },
+      "description": {
+        "es": "Aparece en ríos al anochecer. Puede usar poderes telequinéticos si su frente brilla misteriosamente.",
+        "en": "It appears by waterways at dusk. It may use telekinetic powers if its forehead glows mysteriously."
+      },
+      "sprite": "sprites/055.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 56,
+      "identifier": "mankey",
+      "name": "Mankey",
+      "types": [
+        "fighting"
+      ],
+      "height": 0.5,
+      "weight": 28.0,
+      "baseExperience": 61,
+      "stats": {
+        "hp": 40,
+        "attack": 80,
+        "defense": 35,
+        "specialAttack": 35,
+        "specialDefense": 45,
+        "speed": 70
+      },
+      "description": {
+        "es": "Es peligroso acercarse si se enfada sin razón aparente, ya que no distingue entre amigos y enemigos.",
+        "en": "It’s unsafe to approach if it gets violently enraged for no reason and can’t distinguish friends from foes."
+      },
+      "sprite": "sprites/056.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 57,
+      "identifier": "primeape",
+      "name": "Primeape",
+      "types": [
+        "fighting"
+      ],
+      "height": 1.0,
+      "weight": 32.0,
+      "baseExperience": 159,
+      "stats": {
+        "hp": 65,
+        "attack": 105,
+        "defense": 60,
+        "specialAttack": 60,
+        "specialDefense": 70,
+        "speed": 95
+      },
+      "description": {
+        "es": "Solo se calma cuando nadie está cerca. Llegar a ver ese momento es realmente difícil.",
+        "en": "It stops being angry only when nobody else is around. To view this moment is very difficult."
+      },
+      "sprite": "sprites/057.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 58,
+      "identifier": "growlithe",
+      "name": "Growlithe",
+      "types": [
+        "fire"
+      ],
+      "height": 0.7,
+      "weight": 19.0,
+      "baseExperience": 70,
+      "stats": {
+        "hp": 55,
+        "attack": 70,
+        "defense": 45,
+        "specialAttack": 70,
+        "specialDefense": 50,
+        "speed": 60
+      },
+      "description": {
+        "es": "Es muy agradable y leal. Para ahuyentar al enemigo, se pone a ladrar y a dar bocados.",
+        "en": "Very friendly and faithful to people. It will try to repel enemies by barking and biting."
+      },
+      "sprite": "sprites/058.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 59,
+      "identifier": "arcanine",
+      "name": "Arcanine",
+      "types": [
+        "fire"
+      ],
+      "height": 1.9,
+      "weight": 155.0,
+      "baseExperience": 194,
+      "stats": {
+        "hp": 90,
+        "attack": 110,
+        "defense": 80,
+        "specialAttack": 100,
+        "specialDefense": 80,
+        "speed": 95
+      },
+      "description": {
+        "es": "Un Pokémon muy admirado desde la antigüedad por su belleza. Corre ágilmente como si tuviera alas.",
+        "en": "A Pokémon that has long been admired for its beauty. It runs agilely as if on wings."
+      },
+      "sprite": "sprites/059.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 60,
+      "identifier": "poliwag",
+      "name": "Poliwag",
+      "types": [
+        "water"
+      ],
+      "height": 0.6,
+      "weight": 12.4,
+      "baseExperience": 60,
+      "stats": {
+        "hp": 40,
+        "attack": 50,
+        "defense": 40,
+        "specialAttack": 40,
+        "specialDefense": 40,
+        "speed": 90
+      },
+      "description": {
+        "es": "Tiene una piel extraordinaria, fina y húmeda, que deja entrever las vísceras que tiene dispuestas en espiral.",
+        "en": "Its slick black skin is thin and damp. A part of its internal organs can be seen through the skin as a spiral pattern."
+      },
+      "sprite": "sprites/060.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 61,
+      "identifier": "poliwhirl",
+      "name": "Poliwhirl",
+      "types": [
+        "water"
+      ],
+      "height": 1.0,
+      "weight": 20.0,
+      "baseExperience": 135,
+      "stats": {
+        "hp": 65,
+        "attack": 65,
+        "defense": 65,
+        "specialAttack": 50,
+        "specialDefense": 50,
+        "speed": 90
+      },
+      "description": {
+        "es": "Capaz de vivir dentro o fuera del agua. Fuera del agua suda para mantener baboso su cuerpo.",
+        "en": "It can live in or out of water. When out of water, it constantly sweats to keep its body slimy."
+      },
+      "sprite": "sprites/061.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 62,
+      "identifier": "poliwrath",
+      "name": "Poliwrath",
+      "types": [
+        "water",
+        "fighting"
+      ],
+      "height": 1.3,
+      "weight": 54.0,
+      "baseExperience": 230,
+      "stats": {
+        "hp": 90,
+        "attack": 95,
+        "defense": 95,
+        "specialAttack": 70,
+        "specialDefense": 90,
+        "speed": 70
+      },
+      "description": {
+        "es": "Tiene músculos muy desarrollados. Es capaz de nadar en el océano sin descanso.",
+        "en": "With its extremely tough muscles, it can keep swimming in the Pacific Ocean without resting."
+      },
+      "sprite": "sprites/062.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 63,
+      "identifier": "abra",
+      "name": "Abra",
+      "types": [
+        "psychic"
+      ],
+      "height": 0.9,
+      "weight": 19.5,
+      "baseExperience": 62,
+      "stats": {
+        "hp": 25,
+        "attack": 20,
+        "defense": 15,
+        "specialAttack": 105,
+        "specialDefense": 55,
+        "speed": 90
+      },
+      "description": {
+        "es": "Duerme 18 horas al día y mientras lo hace es capaz de usar una serie de poderes extrasensoriales.",
+        "en": "It sleeps for 18 hours a day. It uses a variety of extrasensory powers even while asleep."
+      },
+      "sprite": "sprites/063.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 64,
+      "identifier": "kadabra",
+      "name": "Kadabra",
+      "types": [
+        "psychic"
+      ],
+      "height": 1.3,
+      "weight": 56.5,
+      "baseExperience": 140,
+      "stats": {
+        "hp": 40,
+        "attack": 35,
+        "defense": 30,
+        "specialAttack": 120,
+        "specialDefense": 70,
+        "speed": 105
+      },
+      "description": {
+        "es": "Cuando utiliza su poder psíquico, emite poderosas ondas alfa que pueden destruir dispositivos.",
+        "en": "When it uses its psychic power, it emits strong alpha waves that can ruin precision devices."
+      },
+      "sprite": "sprites/064.png",
+      "spriteFemale": "sprites/064f.png"
+    },
+    {
+      "id": 65,
+      "identifier": "alakazam",
+      "name": "Alakazam",
+      "types": [
+        "psychic"
+      ],
+      "height": 1.5,
+      "weight": 48.0,
+      "baseExperience": 225,
+      "stats": {
+        "hp": 55,
+        "attack": 50,
+        "defense": 45,
+        "specialAttack": 135,
+        "specialDefense": 95,
+        "speed": 120
+      },
+      "description": {
+        "es": "Sus neuronas se multiplican continuamente durante su vida. Por eso, siempre lo recuerda todo.",
+        "en": "Its brain cells multiply continually until it dies. As a result, it remembers everything."
+      },
+      "sprite": "sprites/065.png",
+      "spriteFemale": "sprites/065f.png"
+    },
+    {
+      "id": 66,
+      "identifier": "machop",
+      "name": "Machop",
+      "types": [
+        "fighting"
+      ],
+      "height": 0.8,
+      "weight": 19.5,
+      "baseExperience": 61,
+      "stats": {
+        "hp": 70,
+        "attack": 80,
+        "defense": 50,
+        "specialAttack": 35,
+        "specialDefense": 35,
+        "speed": 35
+      },
+      "description": {
+        "es": "Levanta un Graveler para mantener sus músculos en forma. Domina todas las artes marciales.",
+        "en": "It hefts a Graveler repeatedly to strengthen its entire body. It uses every type of martial arts."
+      },
+      "sprite": "sprites/066.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 67,
+      "identifier": "machoke",
+      "name": "Machoke",
+      "types": [
+        "fighting"
+      ],
+      "height": 1.5,
+      "weight": 70.5,
+      "baseExperience": 142,
+      "stats": {
+        "hp": 80,
+        "attack": 100,
+        "defense": 70,
+        "specialAttack": 50,
+        "specialDefense": 60,
+        "speed": 45
+      },
+      "description": {
+        "es": "Su musculoso cuerpo es tan fuerte que usa un cinto antifuerza para controlar sus movimientos.",
+        "en": "Its muscular body is so powerful, it must wear a power-save belt to be able to regulate its motions."
+      },
+      "sprite": "sprites/067.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 68,
+      "identifier": "machamp",
+      "name": "Machamp",
+      "types": [
+        "fighting"
+      ],
+      "height": 1.6,
+      "weight": 130.0,
+      "baseExperience": 227,
+      "stats": {
+        "hp": 90,
+        "attack": 130,
+        "defense": 80,
+        "specialAttack": 65,
+        "specialDefense": 85,
+        "speed": 55
+      },
+      "description": {
+        "es": "Tiene cuatro brazos tan bien desarrollados que puede dar una serie de 1000 puñetazos en cuestión de dos segundos.",
+        "en": "Its four ruggedly developed arms can launch a flurry of 1,000 punches in just two seconds."
+      },
+      "sprite": "sprites/068.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 69,
+      "identifier": "bellsprout",
+      "name": "Bellsprout",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "height": 0.7,
+      "weight": 4.0,
+      "baseExperience": 60,
+      "stats": {
+        "hp": 50,
+        "attack": 75,
+        "defense": 35,
+        "specialAttack": 70,
+        "specialDefense": 30,
+        "speed": 40
+      },
+      "description": {
+        "es": "Aunque su cuerpo es extremadamente delgado, es muy rápido a la hora de capturar sus presas.",
+        "en": "Even though its body is extremely skinny, it is blindingly fast when catching its prey."
+      },
+      "sprite": "sprites/069.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 70,
+      "identifier": "weepinbell",
+      "name": "Weepinbell",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "height": 1.0,
+      "weight": 6.4,
+      "baseExperience": 137,
+      "stats": {
+        "hp": 65,
+        "attack": 90,
+        "defense": 50,
+        "specialAttack": 85,
+        "specialDefense": 45,
+        "speed": 55
+      },
+      "description": {
+        "es": "Las hojas que tiene actúan como cuchillas en combate. Otra de sus armas es el corrosivo fluido que expulsa.",
+        "en": "The leafy parts act as cutters for slashing foes. It spits a fluid that dissolves everything."
+      },
+      "sprite": "sprites/070.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 71,
+      "identifier": "victreebel",
+      "name": "Victreebel",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "height": 1.7,
+      "weight": 15.5,
+      "baseExperience": 221,
+      "stats": {
+        "hp": 80,
+        "attack": 105,
+        "defense": 65,
+        "specialAttack": 100,
+        "specialDefense": 70,
+        "speed": 70
+      },
+      "description": {
+        "es": "Dicen que vive en grandes colonias en el interior de las junglas, aunque nadie ha podido verificarlo.",
+        "en": "Said to live in huge colonies deep in jungles, although no one has ever returned from there."
+      },
+      "sprite": "sprites/071.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 72,
+      "identifier": "tentacool",
+      "name": "Tentacool",
+      "types": [
+        "water",
+        "poison"
+      ],
+      "height": 0.9,
+      "weight": 45.5,
+      "baseExperience": 67,
+      "stats": {
+        "hp": 40,
+        "attack": 40,
+        "defense": 35,
+        "specialAttack": 50,
+        "specialDefense": 100,
+        "speed": 70
+      },
+      "description": {
+        "es": "Su cuerpo se compone casi en exclusiva de agua. Lanza extraños rayos con sus ojos cristalinos.",
+        "en": "Its body is virtually composed of water. It shoots strange beams from its crystal-like eyes."
+      },
+      "sprite": "sprites/072.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 73,
+      "identifier": "tentacruel",
+      "name": "Tentacruel",
+      "types": [
+        "water",
+        "poison"
+      ],
+      "height": 1.6,
+      "weight": 55.0,
+      "baseExperience": 180,
+      "stats": {
+        "hp": 80,
+        "attack": 70,
+        "defense": 65,
+        "specialAttack": 80,
+        "specialDefense": 120,
+        "speed": 100
+      },
+      "description": {
+        "es": "Cuando caza, extiende los cortos tentáculos que tiene para atrapar e inmovilizar a su presa.",
+        "en": "The tentacles are normally kept short. On hunts, they are extended to ensnare and immobilize prey."
+      },
+      "sprite": "sprites/073.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 74,
+      "identifier": "geodude",
+      "name": "Geodude",
+      "types": [
+        "rock",
+        "ground"
+      ],
+      "height": 0.4,
+      "weight": 20.0,
+      "baseExperience": 60,
+      "stats": {
+        "hp": 40,
+        "attack": 80,
+        "defense": 100,
+        "specialAttack": 30,
+        "specialDefense": 30,
+        "speed": 20
+      },
+      "description": {
+        "es": "Aparecen en llanos y montañas. Como parecen rocas, la gente se tropieza con ellos o los pisa.",
+        "en": "Found in fields and mountains. Mistaking them for boulders, people often step or trip on them."
+      },
+      "sprite": "sprites/074.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 75,
+      "identifier": "graveler",
+      "name": "Graveler",
+      "types": [
+        "rock",
+        "ground"
+      ],
+      "height": 1.0,
+      "weight": 105.0,
+      "baseExperience": 137,
+      "stats": {
+        "hp": 55,
+        "attack": 95,
+        "defense": 115,
+        "specialAttack": 45,
+        "specialDefense": 45,
+        "speed": 35
+      },
+      "description": {
+        "es": "De naturaleza descuidada y libre, no le importa dañarse cuando baja rodando montañas.",
+        "en": "With a free and uncaring nature, it doesn’t mind if pieces break off while it rolls down mountains."
+      },
+      "sprite": "sprites/075.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 76,
+      "identifier": "golem",
+      "name": "Golem",
+      "types": [
+        "rock",
+        "ground"
+      ],
+      "height": 1.4,
+      "weight": 300.0,
+      "baseExperience": 223,
+      "stats": {
+        "hp": 80,
+        "attack": 120,
+        "defense": 130,
+        "specialAttack": 55,
+        "specialDefense": 65,
+        "speed": 45
+      },
+      "description": {
+        "es": "Se lanza montaña abajo y deja un surco desde la cima hasta el pie. Es mejor mantenerse alejado.",
+        "en": "It tumbles down mountains, leaving grooves from peak to base. Stay clear of these grooves."
+      },
+      "sprite": "sprites/076.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 77,
+      "identifier": "ponyta",
+      "name": "Ponyta",
+      "types": [
+        "fire"
+      ],
+      "height": 1.0,
+      "weight": 30.0,
+      "baseExperience": 82,
+      "stats": {
+        "hp": 50,
+        "attack": 85,
+        "defense": 55,
+        "specialAttack": 65,
+        "specialDefense": 65,
+        "speed": 90
+      },
+      "description": {
+        "es": "Cuando nace, apenas puede tenerse en pie. Pero va fortaleciendo las patas en cuanto empieza a galopar.",
+        "en": "As a newborn, it can barely stand. However, through galloping, its legs are made tougher and faster."
+      },
+      "sprite": "sprites/077.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 78,
+      "identifier": "rapidash",
+      "name": "Rapidash",
+      "types": [
+        "fire"
+      ],
+      "height": 1.7,
+      "weight": 95.0,
+      "baseExperience": 175,
+      "stats": {
+        "hp": 65,
+        "attack": 100,
+        "defense": 70,
+        "specialAttack": 80,
+        "specialDefense": 80,
+        "speed": 105
+      },
+      "description": {
+        "es": "Muy competitivo, este Pokémon perseguirá a todo lo que se mueva rápido e intentará salir airoso.",
+        "en": "Very competitive, this Pokémon will chase anything that moves fast in the hopes of racing it."
+      },
+      "sprite": "sprites/078.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 79,
+      "identifier": "slowpoke",
+      "name": "Slowpoke",
+      "types": [
+        "water",
+        "psychic"
+      ],
+      "height": 1.2,
+      "weight": 36.0,
+      "baseExperience": 63,
+      "stats": {
+        "hp": 90,
+        "attack": 65,
+        "defense": 65,
+        "specialAttack": 40,
+        "specialDefense": 40,
+        "speed": 15
+      },
+      "description": {
+        "es": "Está siempre en su mundo, pero nadie sabe en qué piensa. Suele pescar con la cola.",
+        "en": "It is always vacantly lost in thought, but no one knows what it is thinking about. It is good at fishing with its tail."
+      },
+      "sprite": "sprites/079.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 80,
+      "identifier": "slowbro",
+      "name": "Slowbro",
+      "types": [
+        "water",
+        "psychic"
+      ],
+      "height": 1.6,
+      "weight": 78.5,
+      "baseExperience": 172,
+      "stats": {
+        "hp": 95,
+        "attack": 75,
+        "defense": 110,
+        "specialAttack": 100,
+        "specialDefense": 80,
+        "speed": 30
+      },
+      "description": {
+        "es": "Tiene una cola tan apetecible, que el Shellder que va enganchado a ella no se soltará por nada del mundo.",
+        "en": "An attached Shellder won’t let go because of the tasty flavor that oozes out of its tail."
+      },
+      "sprite": "sprites/080.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 81,
+      "identifier": "magnemite",
+      "name": "Magnemite",
+      "types": [
+        "electric",
+        "steel"
+      ],
+      "height": 0.3,
+      "weight": 6.0,
+      "baseExperience": 65,
+      "stats": {
+        "hp": 25,
+        "attack": 35,
+        "defense": 70,
+        "specialAttack": 95,
+        "specialDefense": 55,
+        "speed": 45
+      },
+      "description": {
+        "es": "Las unidades a los lados de su cuerpo generan energía antigravitatoria para mantenerlo en el aire.",
+        "en": "The units at the sides of its body generate antigravity energy to keep it aloft in the air."
+      },
+      "sprite": "sprites/081.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 82,
+      "identifier": "magneton",
+      "name": "Magneton",
+      "types": [
+        "electric",
+        "steel"
+      ],
+      "height": 1.0,
+      "weight": 60.0,
+      "baseExperience": 163,
+      "stats": {
+        "hp": 50,
+        "attack": 60,
+        "defense": 95,
+        "specialAttack": 120,
+        "specialDefense": 70,
+        "speed": 70
+      },
+      "description": {
+        "es": "Lo constituye un grupo de Magnemite. Descarga potentes ondas magnéticas de alto voltaje.",
+        "en": "A linked cluster formed of several Magnemite. It discharges powerful magnetic waves at high voltage."
+      },
+      "sprite": "sprites/082.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 83,
+      "identifier": "farfetchd",
+      "name": "Farfetch'd",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "height": 0.8,
+      "weight": 15.0,
+      "baseExperience": 132,
+      "stats": {
+        "hp": 52,
+        "attack": 90,
+        "defense": 55,
+        "specialAttack": 58,
+        "specialDefense": 62,
+        "speed": 60
+      },
+      "description": {
+        "es": "El puerro que lleva es su mejor arma. Suele usarlo como espada para cortar cosas.",
+        "en": "The plant stalk it holds is its weapon. The stalk is used like a sword to cut all sorts of things."
+      },
+      "sprite": "sprites/083.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 84,
+      "identifier": "doduo",
+      "name": "Doduo",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "height": 1.4,
+      "weight": 39.2,
+      "baseExperience": 62,
+      "stats": {
+        "hp": 35,
+        "attack": 85,
+        "defense": 45,
+        "specialAttack": 35,
+        "specialDefense": 35,
+        "speed": 75
+      },
+      "description": {
+        "es": "Este Pokémon de dos cabezas es el resultado de una mutación. Cuando corre, puede alcanzar casi 100 km por hora.",
+        "en": "A two-headed Pokémon that was discovered as a sudden mutation. It runs at a pace of over 60 miles per hour."
+      },
+      "sprite": "sprites/084.png",
+      "spriteFemale": "sprites/084f.png"
+    },
+    {
+      "id": 85,
+      "identifier": "dodrio",
+      "name": "Dodrio",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "height": 1.8,
+      "weight": 85.2,
+      "baseExperience": 165,
+      "stats": {
+        "hp": 60,
+        "attack": 110,
+        "defense": 70,
+        "specialAttack": 60,
+        "specialDefense": 60,
+        "speed": 110
+      },
+      "description": {
+        "es": "Más vale no perder de vista ninguna de las tres cabezas. De lo contrario, el número de picotazos será enorme.",
+        "en": "An enemy that takes its eyes off any of the three heads--even for a second--will get pecked severely."
+      },
+      "sprite": "sprites/085.png",
+      "spriteFemale": "sprites/085f.png"
+    },
+    {
+      "id": 86,
+      "identifier": "seel",
+      "name": "Seel",
+      "types": [
+        "water"
+      ],
+      "height": 1.1,
+      "weight": 90.0,
+      "baseExperience": 65,
+      "stats": {
+        "hp": 65,
+        "attack": 45,
+        "defense": 55,
+        "specialAttack": 45,
+        "specialDefense": 70,
+        "speed": 45
+      },
+      "description": {
+        "es": "Este Pokémon vive en icebergs. Nada en el mar y usa el cuerno de su cabeza para romper el hielo.",
+        "en": "A Pokémon that lives on icebergs. It swims in the sea using the point on its head to break up ice."
+      },
+      "sprite": "sprites/086.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 87,
+      "identifier": "dewgong",
+      "name": "Dewgong",
+      "types": [
+        "water",
+        "ice"
+      ],
+      "height": 1.7,
+      "weight": 120.0,
+      "baseExperience": 166,
+      "stats": {
+        "hp": 90,
+        "attack": 70,
+        "defense": 80,
+        "specialAttack": 70,
+        "specialDefense": 95,
+        "speed": 70
+      },
+      "description": {
+        "es": "Está recubierto de un luminoso pelaje blanco. Este Pokémon aumenta su actividad cuando bajan las temperaturas.",
+        "en": "Its body is covered with a pure white fur. The colder the weather, the more active it becomes."
+      },
+      "sprite": "sprites/087.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 88,
+      "identifier": "grimer",
+      "name": "Grimer",
+      "types": [
+        "poison"
+      ],
+      "height": 0.9,
+      "weight": 30.0,
+      "baseExperience": 65,
+      "stats": {
+        "hp": 80,
+        "attack": 80,
+        "defense": 50,
+        "specialAttack": 40,
+        "specialDefense": 50,
+        "speed": 25
+      },
+      "description": {
+        "es": "Nace de lodo alterado al filtrarse en el agua los rayos X reflejados por la Luna. Se alimenta de sustancias desagradables.",
+        "en": "Sludge exposed to X-rays from the moon transformed into Grimer. It loves feeding on filthy things."
+      },
+      "sprite": "sprites/088.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 89,
+      "identifier": "muk",
+      "name": "Muk",
+      "types": [
+        "poison"
+      ],
+      "height": 1.2,
+      "weight": 30.0,
+      "baseExperience": 175,
+      "stats": {
+        "hp": 105,
+        "attack": 105,
+        "defense": 75,
+        "specialAttack": 65,
+        "specialDefense": 100,
+        "speed": 50
+      },
+      "description": {
+        "es": "Les encanta reunirse en zonas apestosas donde se acumula el lodo, haciendo su olor más insoportable.",
+        "en": "They love to gather in smelly areas where sludge accumulates, making the stench around them worse."
+      },
+      "sprite": "sprites/089.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 90,
+      "identifier": "shellder",
+      "name": "Shellder",
+      "types": [
+        "water"
+      ],
+      "height": 0.3,
+      "weight": 4.0,
+      "baseExperience": 61,
+      "stats": {
+        "hp": 30,
+        "attack": 65,
+        "defense": 100,
+        "specialAttack": 45,
+        "specialDefense": 25,
+        "speed": 40
+      },
+      "description": {
+        "es": "La concha lo protege de cualquier tipo de ataque. Solo es vulnerable cuando se abre.",
+        "en": "Its hard shell repels any kind of attack. It is vulnerable only when its shell is open."
+      },
+      "sprite": "sprites/090.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 91,
+      "identifier": "cloyster",
+      "name": "Cloyster",
+      "types": [
+        "water",
+        "ice"
+      ],
+      "height": 1.5,
+      "weight": 132.5,
+      "baseExperience": 184,
+      "stats": {
+        "hp": 50,
+        "attack": 95,
+        "defense": 180,
+        "specialAttack": 85,
+        "specialDefense": 45,
+        "speed": 70
+      },
+      "description": {
+        "es": "A los Cloyster que viven en las fuertes corrientes marinas les crecen largas y afiladas púas en la concha.",
+        "en": "Cloyster that live in seas with harsh tidal currents grow large, sharp spikes on their shells."
+      },
+      "sprite": "sprites/091.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 92,
+      "identifier": "gastly",
+      "name": "Gastly",
+      "types": [
+        "ghost",
+        "poison"
+      ],
+      "height": 1.3,
+      "weight": 0.1,
+      "baseExperience": 62,
+      "stats": {
+        "hp": 30,
+        "attack": 35,
+        "defense": 30,
+        "specialAttack": 100,
+        "specialDefense": 35,
+        "speed": 80
+      },
+      "description": {
+        "es": "Su etéreo cuerpo está hecho de gas. Puede envolver a un oponente de cualquier tamaño hasta ahogarlo.",
+        "en": "Its body is made of gas. Despite lacking substance, it can envelop an opponent of any size and cause suffocation."
+      },
+      "sprite": "sprites/092.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 93,
+      "identifier": "haunter",
+      "name": "Haunter",
+      "types": [
+        "ghost",
+        "poison"
+      ],
+      "height": 1.6,
+      "weight": 0.1,
+      "baseExperience": 142,
+      "stats": {
+        "hp": 45,
+        "attack": 50,
+        "defense": 45,
+        "specialAttack": 115,
+        "specialDefense": 55,
+        "speed": 95
+      },
+      "description": {
+        "es": "Cuando tienes la sensación de que te están observando, seguro que es porque Haunter está cerca.",
+        "en": "If you get the feeling of being watched in darkness when nobody is around, Haunter is there."
+      },
+      "sprite": "sprites/093.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 94,
+      "identifier": "gengar",
+      "name": "Gengar",
+      "types": [
+        "ghost",
+        "poison"
+      ],
+      "height": 1.5,
+      "weight": 40.5,
+      "baseExperience": 225,
+      "stats": {
+        "hp": 60,
+        "attack": 65,
+        "defense": 60,
+        "specialAttack": 130,
+        "specialDefense": 75,
+        "speed": 110
+      },
+      "description": {
+        "es": "Se esconde entre las sombras. Se dice que donde Gengar acecha, la temperatura baja 5 °C.",
+        "en": "It hides in shadows. It is said that if Gengar is hiding, it cools the area by nearly 10 degrees Fahrenheit."
+      },
+      "sprite": "sprites/094.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 95,
+      "identifier": "onix",
+      "name": "Onix",
+      "types": [
+        "rock",
+        "ground"
+      ],
+      "height": 8.8,
+      "weight": 210.0,
+      "baseExperience": 77,
+      "stats": {
+        "hp": 35,
+        "attack": 45,
+        "defense": 160,
+        "specialAttack": 30,
+        "specialDefense": 45,
+        "speed": 70
+      },
+      "description": {
+        "es": "Cava a gran velocidad en busca de comida. Los túneles que deja son usados por los Diglett.",
+        "en": "Burrows at high speed in search of food. The tunnels it leaves are used as homes by Diglett."
+      },
+      "sprite": "sprites/095.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 96,
+      "identifier": "drowzee",
+      "name": "Drowzee",
+      "types": [
+        "psychic"
+      ],
+      "height": 1.0,
+      "weight": 32.4,
+      "baseExperience": 66,
+      "stats": {
+        "hp": 60,
+        "attack": 48,
+        "defense": 45,
+        "specialAttack": 43,
+        "specialDefense": 90,
+        "speed": 42
+      },
+      "description": {
+        "es": "Adormece a sus enemigos y se come sus sueños. A veces se pone enfermo si come pesadillas.",
+        "en": "Puts enemies to sleep, then eats their dreams. Occasionally gets sick from eating only bad dreams."
+      },
+      "sprite": "sprites/096.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 97,
+      "identifier": "hypno",
+      "name": "Hypno",
+      "types": [
+        "psychic"
+      ],
+      "height": 1.6,
+      "weight": 75.6,
+      "baseExperience": 169,
+      "stats": {
+        "hp": 85,
+        "attack": 73,
+        "defense": 70,
+        "specialAttack": 73,
+        "specialDefense": 115,
+        "speed": 67
+      },
+      "description": {
+        "es": "Lleva un péndulo en la mano. Una vez, hizo desaparecer a un niño al que había hipnotizado.",
+        "en": "It carries a pendulum-like device. There once was an incident in which it took away a child it hypnotized."
+      },
+      "sprite": "sprites/097.png",
+      "spriteFemale": "sprites/097f.png"
+    },
+    {
+      "id": 98,
+      "identifier": "krabby",
+      "name": "Krabby",
+      "types": [
+        "water"
+      ],
+      "height": 0.4,
+      "weight": 6.5,
+      "baseExperience": 65,
+      "stats": {
+        "hp": 30,
+        "attack": 105,
+        "defense": 90,
+        "specialAttack": 25,
+        "specialDefense": 25,
+        "speed": 50
+      },
+      "description": {
+        "es": "Ante el peligro, se camufla con las burbujas que desprende su boca, para parecer más grande.",
+        "en": "If it senses danger approaching, it cloaks itself with bubbles from its mouth so it will look bigger."
+      },
+      "sprite": "sprites/098.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 99,
+      "identifier": "kingler",
+      "name": "Kingler",
+      "types": [
+        "water"
+      ],
+      "height": 1.3,
+      "weight": 60.0,
+      "baseExperience": 166,
+      "stats": {
+        "hp": 55,
+        "attack": 130,
+        "defense": 115,
+        "specialAttack": 50,
+        "specialDefense": 50,
+        "speed": 75
+      },
+      "description": {
+        "es": "La pinza tan grande que tiene posee una fuerza de 10 000 caballos de potencia. Pero, por su gran tamaño, cuesta moverla.",
+        "en": "Its large and hard pincer has 10,000-horsepower strength. However, being so big, it is unwieldy to move."
+      },
+      "sprite": "sprites/099.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 100,
+      "identifier": "voltorb",
+      "name": "Voltorb",
+      "types": [
+        "electric"
+      ],
+      "height": 0.5,
+      "weight": 10.4,
+      "baseExperience": 66,
+      "stats": {
+        "hp": 40,
+        "attack": 30,
+        "defense": 50,
+        "specialAttack": 55,
+        "specialDefense": 55,
+        "speed": 100
+      },
+      "description": {
+        "es": "Fue descubierto cuando se crearon las Poké Balls. Se dice que tiene algo que ver con ellas.",
+        "en": "It was discovered when Poké Balls were introduced. It is said that there is some connection."
+      },
+      "sprite": "sprites/100.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 101,
+      "identifier": "electrode",
+      "name": "Electrode",
+      "types": [
+        "electric"
+      ],
+      "height": 1.2,
+      "weight": 66.6,
+      "baseExperience": 172,
+      "stats": {
+        "hp": 60,
+        "attack": 50,
+        "defense": 70,
+        "specialAttack": 80,
+        "specialDefense": 80,
+        "speed": 150
+      },
+      "description": {
+        "es": "Explotan a la mínima. Por eso se les tiene mucho miedo. Estos Pokémon reciben el mote de Bomba Ball.",
+        "en": "It explodes in response to even minor stimuli. It is feared, with the nickname of “The Bomb Ball.”"
+      },
+      "sprite": "sprites/101.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 102,
+      "identifier": "exeggcute",
+      "name": "Exeggcute",
+      "types": [
+        "grass",
+        "psychic"
+      ],
+      "height": 0.4,
+      "weight": 2.5,
+      "baseExperience": 65,
+      "stats": {
+        "hp": 60,
+        "attack": 40,
+        "defense": 80,
+        "specialAttack": 60,
+        "specialDefense": 45,
+        "speed": 40
+      },
+      "description": {
+        "es": "Estos seis huevos se comunican por telepatía. Si se separan, se pueden reunir rápidamente.",
+        "en": "Its six eggs converse using telepathy. They can quickly gather if they become separated."
+      },
+      "sprite": "sprites/102.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 103,
+      "identifier": "exeggutor",
+      "name": "Exeggutor",
+      "types": [
+        "grass",
+        "psychic"
+      ],
+      "height": 2.0,
+      "weight": 120.0,
+      "baseExperience": 186,
+      "stats": {
+        "hp": 95,
+        "attack": 95,
+        "defense": 85,
+        "specialAttack": 125,
+        "specialDefense": 75,
+        "speed": 55
+      },
+      "description": {
+        "es": "Sus tres cabezas piensan de forma independiente. Sin embargo, son amigas y no suelen discutir nunca.",
+        "en": "Its three heads think independently. However, they are friendly and never appear to squabble."
+      },
+      "sprite": "sprites/103.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 104,
+      "identifier": "cubone",
+      "name": "Cubone",
+      "types": [
+        "ground"
+      ],
+      "height": 0.4,
+      "weight": 6.5,
+      "baseExperience": 64,
+      "stats": {
+        "hp": 50,
+        "attack": 50,
+        "defense": 95,
+        "specialAttack": 40,
+        "specialDefense": 50,
+        "speed": 35
+      },
+      "description": {
+        "es": "Lleva puesto el cráneo de su madre. Cuando se siente solo se pone a gritar muy fuerte.",
+        "en": "It wears the skull of its dead mother on its head. When it becomes lonesome, it is said to cry loudly."
+      },
+      "sprite": "sprites/104.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 105,
+      "identifier": "marowak",
+      "name": "Marowak",
+      "types": [
+        "ground"
+      ],
+      "height": 1.0,
+      "weight": 45.0,
+      "baseExperience": 149,
+      "stats": {
+        "hp": 60,
+        "attack": 80,
+        "defense": 110,
+        "specialAttack": 50,
+        "specialDefense": 80,
+        "speed": 45
+      },
+      "description": {
+        "es": "Es pequeño y siempre ha sido muy débil. Cuando empezó a usar huesos, se volvió más violento.",
+        "en": "It is small and was originally very weak. Its temperament turned ferocious when it began using bones."
+      },
+      "sprite": "sprites/105.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 106,
+      "identifier": "hitmonlee",
+      "name": "Hitmonlee",
+      "types": [
+        "fighting"
+      ],
+      "height": 1.5,
+      "weight": 49.8,
+      "baseExperience": 159,
+      "stats": {
+        "hp": 50,
+        "attack": 120,
+        "defense": 53,
+        "specialAttack": 35,
+        "specialDefense": 110,
+        "speed": 87
+      },
+      "description": {
+        "es": "Encoge y estira las patas a su antojo. Cuando las estira, es capaz de propinar una buena patada al enemigo.",
+        "en": "The legs freely contract and stretch. The stretchy legs allow it to hit a distant foe with a rising kick."
+      },
+      "sprite": "sprites/106.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 107,
+      "identifier": "hitmonchan",
+      "name": "Hitmonchan",
+      "types": [
+        "fighting"
+      ],
+      "height": 1.4,
+      "weight": 50.2,
+      "baseExperience": 159,
+      "stats": {
+        "hp": 50,
+        "attack": 105,
+        "defense": 79,
+        "specialAttack": 35,
+        "specialDefense": 110,
+        "speed": 76
+      },
+      "description": {
+        "es": "Los potentes golpes de sus brazos pueden pulverizar el hormigón. Descansa tras luchar tres minutos.",
+        "en": "The arm-twisting punches it throws pulverize even concrete. It rests after three minutes of fighting."
+      },
+      "sprite": "sprites/107.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 108,
+      "identifier": "lickitung",
+      "name": "Lickitung",
+      "types": [
+        "normal"
+      ],
+      "height": 1.2,
+      "weight": 65.5,
+      "baseExperience": 77,
+      "stats": {
+        "hp": 90,
+        "attack": 55,
+        "defense": 75,
+        "specialAttack": 60,
+        "specialDefense": 75,
+        "speed": 30
+      },
+      "description": {
+        "es": "Su larga lengua, recubierta de saliva pegajosa, se pega a todo, por lo que es muy útil.",
+        "en": "Its long tongue, slathered with a gooey saliva, sticks to anything, so it is very useful."
+      },
+      "sprite": "sprites/108.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 109,
+      "identifier": "koffing",
+      "name": "Koffing",
+      "types": [
+        "poison"
+      ],
+      "height": 0.6,
+      "weight": 1.0,
+      "baseExperience": 68,
+      "stats": {
+        "hp": 40,
+        "attack": 65,
+        "defense": 95,
+        "specialAttack": 60,
+        "specialDefense": 45,
+        "speed": 35
+      },
+      "description": {
+        "es": "Tiene forma de globo y es muy ligero. Está compuesto por gases tóxicos y apesta.",
+        "en": "Its thin, balloon-like body is inflated by horribly toxic gases. It reeks when it is nearby."
+      },
+      "sprite": "sprites/109.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 110,
+      "identifier": "weezing",
+      "name": "Weezing",
+      "types": [
+        "poison"
+      ],
+      "height": 1.2,
+      "weight": 9.5,
+      "baseExperience": 172,
+      "stats": {
+        "hp": 65,
+        "attack": 90,
+        "defense": 120,
+        "specialAttack": 85,
+        "specialDefense": 70,
+        "speed": 60
+      },
+      "description": {
+        "es": "Si uno de los gemelos Koffing se infla, el otro se desinfla. Mezclan constantemente sus venenosos gases.",
+        "en": "If one of the twin Koffing inflates, the other one deflates. It constantly mixes its poisonous gases."
+      },
+      "sprite": "sprites/110.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 111,
+      "identifier": "rhyhorn",
+      "name": "Rhyhorn",
+      "types": [
+        "ground",
+        "rock"
+      ],
+      "height": 1.0,
+      "weight": 115.0,
+      "baseExperience": 69,
+      "stats": {
+        "hp": 80,
+        "attack": 85,
+        "defense": 95,
+        "specialAttack": 30,
+        "specialDefense": 30,
+        "speed": 25
+      },
+      "description": {
+        "es": "Es muy fuerte, pero no especialmente listo. Es capaz de derribar rascacielos usando Placaje varias veces.",
+        "en": "Strong, but not too bright, this Pokémon can shatter even a skyscraper with its charging Tackles."
+      },
+      "sprite": "sprites/111.png",
+      "spriteFemale": "sprites/111f.png"
+    },
+    {
+      "id": 112,
+      "identifier": "rhydon",
+      "name": "Rhydon",
+      "types": [
+        "ground",
+        "rock"
+      ],
+      "height": 1.9,
+      "weight": 120.0,
+      "baseExperience": 170,
+      "stats": {
+        "hp": 105,
+        "attack": 130,
+        "defense": 120,
+        "specialAttack": 45,
+        "specialDefense": 45,
+        "speed": 40
+      },
+      "description": {
+        "es": "La piel le sirve de escudo protector. Puede vivir en lava líquida a 2000 °C de temperatura.",
+        "en": "Protected by an armor-like hide, it is capable of living in molten lava of 3,600 degrees Fahrenheit."
+      },
+      "sprite": "sprites/112.png",
+      "spriteFemale": "sprites/112f.png"
+    },
+    {
+      "id": 113,
+      "identifier": "chansey",
+      "name": "Chansey",
+      "types": [
+        "normal"
+      ],
+      "height": 1.1,
+      "weight": 34.6,
+      "baseExperience": 395,
+      "stats": {
+        "hp": 250,
+        "attack": 5,
+        "defense": 5,
+        "specialAttack": 35,
+        "specialDefense": 105,
+        "speed": 50
+      },
+      "description": {
+        "es": "Se dice que reparte felicidad. Se caracteriza por su compasión y reparte sus huevos entre la gente herida.",
+        "en": "It is said to deliver happiness. Being compassionate, it shares its eggs with injured people."
+      },
+      "sprite": "sprites/113.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 114,
+      "identifier": "tangela",
+      "name": "Tangela",
+      "types": [
+        "grass"
+      ],
+      "height": 1.0,
+      "weight": 35.0,
+      "baseExperience": 87,
+      "stats": {
+        "hp": 65,
+        "attack": 55,
+        "defense": 115,
+        "specialAttack": 100,
+        "specialDefense": 40,
+        "speed": 60
+      },
+      "description": {
+        "es": "Se camufla con la multitud de lianas que envuelven su cuerpo y que no dejan de crecer a lo largo de toda su vida.",
+        "en": "Many writhing vines cover it, so its true identity remains unknown. The blue vines grow its whole life long."
+      },
+      "sprite": "sprites/114.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 115,
+      "identifier": "kangaskhan",
+      "name": "Kangaskhan",
+      "types": [
+        "normal"
+      ],
+      "height": 2.2,
+      "weight": 80.0,
+      "baseExperience": 172,
+      "stats": {
+        "hp": 105,
+        "attack": 95,
+        "defense": 80,
+        "specialAttack": 40,
+        "specialDefense": 80,
+        "speed": 90
+      },
+      "description": {
+        "es": "Lleva a su cría en la bolsa de su panza. Solo deja que su cría salga a jugar cuando no siente peligro.",
+        "en": "It raises its offspring in its belly pouch. It lets the baby out to play only when it feels safe."
+      },
+      "sprite": "sprites/115.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 116,
+      "identifier": "horsea",
+      "name": "Horsea",
+      "types": [
+        "water"
+      ],
+      "height": 0.4,
+      "weight": 8.0,
+      "baseExperience": 59,
+      "stats": {
+        "hp": 30,
+        "attack": 40,
+        "defense": 70,
+        "specialAttack": 70,
+        "specialDefense": 25,
+        "speed": 60
+      },
+      "description": {
+        "es": "Es famoso por derribar a bichos voladores lanzando tinta desde la superficie del agua.",
+        "en": "Known to shoot down flying bugs with precision blasts of ink from the surface of the water."
+      },
+      "sprite": "sprites/116.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 117,
+      "identifier": "seadra",
+      "name": "Seadra",
+      "types": [
+        "water"
+      ],
+      "height": 1.2,
+      "weight": 25.0,
+      "baseExperience": 154,
+      "stats": {
+        "hp": 55,
+        "attack": 65,
+        "defense": 95,
+        "specialAttack": 95,
+        "specialDefense": 45,
+        "speed": 85
+      },
+      "description": {
+        "es": "Las afiladas púas que le recubren el cuerpo se le erizan y pueden causar el debilitamiento con solo tocarlo.",
+        "en": "Its body bristles with sharp spikes. Carelessly trying to touch it could cause fainting from the spikes."
+      },
+      "sprite": "sprites/117.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 118,
+      "identifier": "goldeen",
+      "name": "Goldeen",
+      "types": [
+        "water"
+      ],
+      "height": 0.6,
+      "weight": 15.0,
+      "baseExperience": 64,
+      "stats": {
+        "hp": 45,
+        "attack": 67,
+        "defense": 60,
+        "specialAttack": 35,
+        "specialDefense": 50,
+        "speed": 63
+      },
+      "description": {
+        "es": "Nada a una velocidad de cinco nudos. Si siente peligro, golpea con su afilado cuerno.",
+        "en": "It swims at a steady 5 knots. If it senses danger, it will strike back with its sharp horn."
+      },
+      "sprite": "sprites/118.png",
+      "spriteFemale": "sprites/118f.png"
+    },
+    {
+      "id": 119,
+      "identifier": "seaking",
+      "name": "Seaking",
+      "types": [
+        "water"
+      ],
+      "height": 1.3,
+      "weight": 39.0,
+      "baseExperience": 158,
+      "stats": {
+        "hp": 80,
+        "attack": 92,
+        "defense": 65,
+        "specialAttack": 65,
+        "specialDefense": 80,
+        "speed": 68
+      },
+      "description": {
+        "es": "En otoño, cuando se reproducen, se les puede ver nadando con energía por ríos y arroyos.",
+        "en": "In the autumn spawning season, they can be seen swimming powerfully up rivers and creeks."
+      },
+      "sprite": "sprites/119.png",
+      "spriteFemale": "sprites/119f.png"
+    },
+    {
+      "id": 120,
+      "identifier": "staryu",
+      "name": "Staryu",
+      "types": [
+        "water"
+      ],
+      "height": 0.8,
+      "weight": 34.5,
+      "baseExperience": 68,
+      "stats": {
+        "hp": 30,
+        "attack": 45,
+        "defense": 55,
+        "specialAttack": 70,
+        "specialDefense": 55,
+        "speed": 85
+      },
+      "description": {
+        "es": "Aunque sus brazos se rompan podrán regenerarse, siempre y cuando su núcleo siga intacto.",
+        "en": "Even if its body is torn, it can regenerate as long as the glowing central core remains intact."
+      },
+      "sprite": "sprites/120.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 121,
+      "identifier": "starmie",
+      "name": "Starmie",
+      "types": [
+        "water",
+        "psychic"
+      ],
+      "height": 1.1,
+      "weight": 80.0,
+      "baseExperience": 182,
+      "stats": {
+        "hp": 60,
+        "attack": 75,
+        "defense": 85,
+        "specialAttack": 100,
+        "specialDefense": 85,
+        "speed": 115
+      },
+      "description": {
+        "es": "Su núcleo central brilla con los colores del arcoíris. Para algunos tiene el valor de una gema.",
+        "en": "Its central core glows with the seven colors of the rainbow. Some people value the core as a gem."
+      },
+      "sprite": "sprites/121.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 122,
+      "identifier": "mr-mime",
+      "name": "Mr. Mime",
+      "types": [
+        "psychic",
+        "fairy"
+      ],
+      "height": 1.3,
+      "weight": 54.5,
+      "baseExperience": 161,
+      "stats": {
+        "hp": 40,
+        "attack": 45,
+        "defense": 65,
+        "specialAttack": 100,
+        "specialDefense": 120,
+        "speed": 90
+      },
+      "description": {
+        "es": "Para repeler ataques, solidifica el aire y crea muros invisibles con emanaciones de sus dedos.",
+        "en": "Emanations from its fingertips solidify the air into invisible walls that repel even harsh attacks."
+      },
+      "sprite": "sprites/122.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 123,
+      "identifier": "scyther",
+      "name": "Scyther",
+      "types": [
+        "bug",
+        "flying"
+      ],
+      "height": 1.5,
+      "weight": 56.0,
+      "baseExperience": 100,
+      "stats": {
+        "hp": 70,
+        "attack": 110,
+        "defense": 80,
+        "specialAttack": 55,
+        "specialDefense": 80,
+        "speed": 105
+      },
+      "description": {
+        "es": "Destroza a su presa con las guadañas que tiene. No es común que use las alas para volar.",
+        "en": "It tears and shreds prey with its wickedly sharp scythes. It very rarely spreads its wings to fly."
+      },
+      "sprite": "sprites/123.png",
+      "spriteFemale": "sprites/123f.png"
+    },
+    {
+      "id": 124,
+      "identifier": "jynx",
+      "name": "Jynx",
+      "types": [
+        "ice",
+        "psychic"
+      ],
+      "height": 1.4,
+      "weight": 40.6,
+      "baseExperience": 159,
+      "stats": {
+        "hp": 65,
+        "attack": 50,
+        "defense": 35,
+        "specialAttack": 115,
+        "specialDefense": 95,
+        "speed": 95
+      },
+      "description": {
+        "es": "Camina moviendo las caderas de forma llamativa. Puede hacer que la gente baile a su ritmo.",
+        "en": "It wiggles its hips as it walks. It can cause people to dance in unison with it."
+      },
+      "sprite": "sprites/124.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 125,
+      "identifier": "electabuzz",
+      "name": "Electabuzz",
+      "types": [
+        "electric"
+      ],
+      "height": 1.1,
+      "weight": 30.0,
+      "baseExperience": 172,
+      "stats": {
+        "hp": 65,
+        "attack": 83,
+        "defense": 57,
+        "specialAttack": 95,
+        "specialDefense": 85,
+        "speed": 105
+      },
+      "description": {
+        "es": "Por la superficie de su piel corre la electricidad. En la oscuridad, su cuerpo se torna blanquecino.",
+        "en": "Electricity runs across the surface of its body. In darkness, its entire body glows a whitish blue."
+      },
+      "sprite": "sprites/125.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 126,
+      "identifier": "magmar",
+      "name": "Magmar",
+      "types": [
+        "fire"
+      ],
+      "height": 1.3,
+      "weight": 44.5,
+      "baseExperience": 173,
+      "stats": {
+        "hp": 65,
+        "attack": 95,
+        "defense": 57,
+        "specialAttack": 100,
+        "specialDefense": 85,
+        "speed": 93
+      },
+      "description": {
+        "es": "A este Pokémon se lo encontraron cerca de un volcán. Esta criatura ígnea tiene una temperatura corporal de unos 1200 °C.",
+        "en": "Found near the mouth of a volcano. This fire-breather’s body temperature is nearly 2,200 degrees Fahrenheit."
+      },
+      "sprite": "sprites/126.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 127,
+      "identifier": "pinsir",
+      "name": "Pinsir",
+      "types": [
+        "bug"
+      ],
+      "height": 1.5,
+      "weight": 55.0,
+      "baseExperience": 175,
+      "stats": {
+        "hp": 65,
+        "attack": 125,
+        "defense": 100,
+        "specialAttack": 55,
+        "specialDefense": 70,
+        "speed": 85
+      },
+      "description": {
+        "es": "Atrapa presas con sus pinzas hasta que las parte en dos. Lanza lejos lo que no puede quebrar.",
+        "en": "It grips prey with its pincers until the prey is torn in half. What it can’t tear, it tosses far."
+      },
+      "sprite": "sprites/127.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 128,
+      "identifier": "tauros",
+      "name": "Tauros",
+      "types": [
+        "normal"
+      ],
+      "height": 1.4,
+      "weight": 88.4,
+      "baseExperience": 172,
+      "stats": {
+        "hp": 75,
+        "attack": 100,
+        "defense": 95,
+        "specialAttack": 40,
+        "specialDefense": 70,
+        "speed": 110
+      },
+      "description": {
+        "es": "Después de animarse a luchar fustigándose con sus tres colas, carga a toda velocidad.",
+        "en": "After heightening its will to fight by whipping itself with its three tails, it charges at full speed."
+      },
+      "sprite": "sprites/128.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 129,
+      "identifier": "magikarp",
+      "name": "Magikarp",
+      "types": [
+        "water"
+      ],
+      "height": 0.9,
+      "weight": 10.0,
+      "baseExperience": 40,
+      "stats": {
+        "hp": 20,
+        "attack": 10,
+        "defense": 55,
+        "specialAttack": 15,
+        "specialDefense": 20,
+        "speed": 80
+      },
+      "description": {
+        "es": "No es precisamente rápido ni fuerte. Es el Pokémon más debilucho y simplón de todos los que hay.",
+        "en": "It is virtually worthless in terms of both power and speed. It is the most weak and pathetic Pokémon in the world."
+      },
+      "sprite": "sprites/129.png",
+      "spriteFemale": "sprites/129f.png"
+    },
+    {
+      "id": 130,
+      "identifier": "gyarados",
+      "name": "Gyarados",
+      "types": [
+        "water",
+        "flying"
+      ],
+      "height": 6.5,
+      "weight": 235.0,
+      "baseExperience": 189,
+      "stats": {
+        "hp": 95,
+        "attack": 125,
+        "defense": 79,
+        "specialAttack": 60,
+        "specialDefense": 100,
+        "speed": 81
+      },
+      "description": {
+        "es": "En la literatura antigua se dice que un Gyarados rebosante de violencia arrasó un poblado.",
+        "en": "In ancient literature, there is a record of a Gyarados that razed a village when violence flared."
+      },
+      "sprite": "sprites/130.png",
+      "spriteFemale": "sprites/130f.png"
+    },
+    {
+      "id": 131,
+      "identifier": "lapras",
+      "name": "Lapras",
+      "types": [
+        "water",
+        "ice"
+      ],
+      "height": 2.5,
+      "weight": 220.0,
+      "baseExperience": 187,
+      "stats": {
+        "hp": 130,
+        "attack": 85,
+        "defense": 80,
+        "specialAttack": 85,
+        "specialDefense": 95,
+        "speed": 60
+      },
+      "description": {
+        "es": "Son buenos de corazón. Muchos fueron capturados por ser tan pacíficos. Ahora hay muchos menos.",
+        "en": "They have gentle hearts. Because they rarely fight, many have been caught. Their number has dwindled."
+      },
+      "sprite": "sprites/131.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 132,
+      "identifier": "ditto",
+      "name": "Ditto",
+      "types": [
+        "normal"
+      ],
+      "height": 0.3,
+      "weight": 4.0,
+      "baseExperience": 101,
+      "stats": {
+        "hp": 48,
+        "attack": 48,
+        "defense": 48,
+        "specialAttack": 48,
+        "specialDefense": 48,
+        "speed": 48
+      },
+      "description": {
+        "es": "Puede alterar por completo su estructura celular para emular cualquier objeto que vea.",
+        "en": "It has the ability to reconstitute its entire cellular structure to transform into whatever it sees."
+      },
+      "sprite": "sprites/132.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 133,
+      "identifier": "eevee",
+      "name": "Eevee",
+      "types": [
+        "normal"
+      ],
+      "height": 0.3,
+      "weight": 6.5,
+      "baseExperience": 65,
+      "stats": {
+        "hp": 55,
+        "attack": 55,
+        "defense": 50,
+        "specialAttack": 45,
+        "specialDefense": 65,
+        "speed": 55
+      },
+      "description": {
+        "es": "Un extraño Pokémon que se adapta a los entornos más hostiles gracias a sus diferentes evoluciones.",
+        "en": "A rare Pokémon that adapts to harsh environments by taking on different evolutionary forms."
+      },
+      "sprite": "sprites/133.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 134,
+      "identifier": "vaporeon",
+      "name": "Vaporeon",
+      "types": [
+        "water"
+      ],
+      "height": 1.0,
+      "weight": 29.0,
+      "baseExperience": 184,
+      "stats": {
+        "hp": 130,
+        "attack": 65,
+        "defense": 60,
+        "specialAttack": 110,
+        "specialDefense": 95,
+        "speed": 65
+      },
+      "description": {
+        "es": "Prefiere las bellas costas. Con células parecidas al agua, podría fundirse en la misma.",
+        "en": "It prefers beautiful shores. With cells similar to water molecules, it could melt in water."
+      },
+      "sprite": "sprites/134.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 135,
+      "identifier": "jolteon",
+      "name": "Jolteon",
+      "types": [
+        "electric"
+      ],
+      "height": 0.8,
+      "weight": 24.5,
+      "baseExperience": 184,
+      "stats": {
+        "hp": 65,
+        "attack": 65,
+        "defense": 60,
+        "specialAttack": 110,
+        "specialDefense": 95,
+        "speed": 130
+      },
+      "description": {
+        "es": "Todos los pelos de su cuerpo se ponen de punta si empieza a cargarse de electricidad.",
+        "en": "Every hair on its body starts to stand sharply on end if it becomes charged with electricity."
+      },
+      "sprite": "sprites/135.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 136,
+      "identifier": "flareon",
+      "name": "Flareon",
+      "types": [
+        "fire"
+      ],
+      "height": 0.9,
+      "weight": 25.0,
+      "baseExperience": 184,
+      "stats": {
+        "hp": 65,
+        "attack": 130,
+        "defense": 60,
+        "specialAttack": 95,
+        "specialDefense": 110,
+        "speed": 65
+      },
+      "description": {
+        "es": "Almacena llamas en su cuerpo, que alcanza una temperatura de 900 °C antes de un combate.",
+        "en": "It has a flame sac in its body. Its body temperature tops 1,650 degrees Fahrenheit before battle."
+      },
+      "sprite": "sprites/136.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 137,
+      "identifier": "porygon",
+      "name": "Porygon",
+      "types": [
+        "normal"
+      ],
+      "height": 0.8,
+      "weight": 36.5,
+      "baseExperience": 79,
+      "stats": {
+        "hp": 65,
+        "attack": 60,
+        "defense": 70,
+        "specialAttack": 85,
+        "specialDefense": 75,
+        "speed": 40
+      },
+      "description": {
+        "es": "Pokémon creado por el hombre tras muchas investigaciones. Sus habilidades son básicas.",
+        "en": "A man-made Pokémon that came about as a result of research. It is programmed with only basic motions."
+      },
+      "sprite": "sprites/137.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 138,
+      "identifier": "omanyte",
+      "name": "Omanyte",
+      "types": [
+        "rock",
+        "water"
+      ],
+      "height": 0.4,
+      "weight": 7.5,
+      "baseExperience": 71,
+      "stats": {
+        "hp": 35,
+        "attack": 40,
+        "defense": 100,
+        "specialAttack": 90,
+        "specialDefense": 55,
+        "speed": 35
+      },
+      "description": {
+        "es": "Pokémon prehistórico que vivió en el océano primordial. Para nadar se valía de sus 10 tentáculos.",
+        "en": "A prehistoric Pokémon that lived in the primordial sea, it swims by twisting its 10 tentacles about."
+      },
+      "sprite": "sprites/138.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 139,
+      "identifier": "omastar",
+      "name": "Omastar",
+      "types": [
+        "rock",
+        "water"
+      ],
+      "height": 1.0,
+      "weight": 35.0,
+      "baseExperience": 173,
+      "stats": {
+        "hp": 70,
+        "attack": 60,
+        "defense": 125,
+        "specialAttack": 115,
+        "specialDefense": 70,
+        "speed": 55
+      },
+      "description": {
+        "es": "Tiene los tentáculos tan desarrollados que le sirven de manos y pies. Con ellos atrapa a su presa y le da un bocado.",
+        "en": "Its tentacles are highly developed as if they are hands and feet. As soon as it ensnares prey, it bites."
+      },
+      "sprite": "sprites/139.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 140,
+      "identifier": "kabuto",
+      "name": "Kabuto",
+      "types": [
+        "rock",
+        "water"
+      ],
+      "height": 0.5,
+      "weight": 11.5,
+      "baseExperience": 71,
+      "stats": {
+        "hp": 30,
+        "attack": 80,
+        "defense": 90,
+        "specialAttack": 55,
+        "specialDefense": 45,
+        "speed": 55
+      },
+      "description": {
+        "es": "Se cree que habitó las playas hace 300 millones de años. Se protege con una dura concha.",
+        "en": "It is thought to have inhabited beaches 300 million years ago. It is protected by a stiff shell."
+      },
+      "sprite": "sprites/140.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 141,
+      "identifier": "kabutops",
+      "name": "Kabutops",
+      "types": [
+        "rock",
+        "water"
+      ],
+      "height": 1.3,
+      "weight": 40.5,
+      "baseExperience": 173,
+      "stats": {
+        "hp": 60,
+        "attack": 115,
+        "defense": 105,
+        "specialAttack": 65,
+        "specialDefense": 70,
+        "speed": 80
+      },
+      "description": {
+        "es": "Repliega sus extremidades en el agua para hacerse más compacto, y mueve su concha para nadar rápido.",
+        "en": "In the water, it tucks in its limbs to become more compact, then it wiggles its shell to swim fast."
+      },
+      "sprite": "sprites/141.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 142,
+      "identifier": "aerodactyl",
+      "name": "Aerodactyl",
+      "types": [
+        "rock",
+        "flying"
+      ],
+      "height": 1.8,
+      "weight": 59.0,
+      "baseExperience": 180,
+      "stats": {
+        "hp": 80,
+        "attack": 105,
+        "defense": 65,
+        "specialAttack": 60,
+        "specialDefense": 75,
+        "speed": 130
+      },
+      "description": {
+        "es": "Se regeneró a partir de material genético de un dinosaurio encontrado en ámbar. Cuando vuela emite escandalosos alaridos.",
+        "en": "It was regenerated from a dinosaur’s genetic matter that was found in amber. It flies with high-pitched cries."
+      },
+      "sprite": "sprites/142.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 143,
+      "identifier": "snorlax",
+      "name": "Snorlax",
+      "types": [
+        "normal"
+      ],
+      "height": 2.1,
+      "weight": 460.0,
+      "baseExperience": 189,
+      "stats": {
+        "hp": 160,
+        "attack": 110,
+        "defense": 65,
+        "specialAttack": 65,
+        "specialDefense": 110,
+        "speed": 30
+      },
+      "description": {
+        "es": "No se encuentra satisfecho hasta que no se come 400 kg de comida cada día. Cuando acaba de comer, se queda dormido.",
+        "en": "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep."
+      },
+      "sprite": "sprites/143.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 144,
+      "identifier": "articuno",
+      "name": "Articuno",
+      "types": [
+        "ice",
+        "flying"
+      ],
+      "height": 1.7,
+      "weight": 55.4,
+      "baseExperience": 261,
+      "stats": {
+        "hp": 90,
+        "attack": 85,
+        "defense": 100,
+        "specialAttack": 95,
+        "specialDefense": 125,
+        "speed": 85
+      },
+      "description": {
+        "es": "Legendario Pokémon pájaro capaz de generar ventiscas congelando la humedad del aire.",
+        "en": "A legendary bird Pokémon. It can create blizzards by freezing moisture in the air."
+      },
+      "sprite": "sprites/144.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 145,
+      "identifier": "zapdos",
+      "name": "Zapdos",
+      "types": [
+        "electric",
+        "flying"
+      ],
+      "height": 1.6,
+      "weight": 52.6,
+      "baseExperience": 261,
+      "stats": {
+        "hp": 90,
+        "attack": 90,
+        "defense": 85,
+        "specialAttack": 125,
+        "specialDefense": 90,
+        "speed": 100
+      },
+      "description": {
+        "es": "Es un legendario pájaro Pokémon. Dicen que aparece entre las nubes lanzando enormes rayos brillantes.",
+        "en": "A legendary bird Pokémon that is said to appear from clouds while dropping enormous lightning bolts."
+      },
+      "sprite": "sprites/145.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 146,
+      "identifier": "moltres",
+      "name": "Moltres",
+      "types": [
+        "fire",
+        "flying"
+      ],
+      "height": 2.0,
+      "weight": 60.0,
+      "baseExperience": 261,
+      "stats": {
+        "hp": 90,
+        "attack": 100,
+        "defense": 90,
+        "specialAttack": 125,
+        "specialDefense": 85,
+        "speed": 90
+      },
+      "description": {
+        "es": "Es más conocido como el legendario pájaro de fuego. Con cada aleteo crea brillantes llamas.",
+        "en": "It is said to be the legendary bird Pokémon of fire. Every flap of its wings creates a dazzling flare of flames."
+      },
+      "sprite": "sprites/146.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 147,
+      "identifier": "dratini",
+      "name": "Dratini",
+      "types": [
+        "dragon"
+      ],
+      "height": 1.8,
+      "weight": 3.3,
+      "baseExperience": 60,
+      "stats": {
+        "hp": 41,
+        "attack": 64,
+        "defense": 45,
+        "specialAttack": 50,
+        "specialDefense": 50,
+        "speed": 50
+      },
+      "description": {
+        "es": "Se le llama el Pokémon Espejismo porque son muy pocos los que lo han visto. Se encontró su muda.",
+        "en": "It is called the “Mirage Pokémon” because so few have seen it. Its shed skin has been found."
+      },
+      "sprite": "sprites/147.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 148,
+      "identifier": "dragonair",
+      "name": "Dragonair",
+      "types": [
+        "dragon"
+      ],
+      "height": 4.0,
+      "weight": 16.5,
+      "baseExperience": 147,
+      "stats": {
+        "hp": 61,
+        "attack": 84,
+        "defense": 65,
+        "specialAttack": 70,
+        "specialDefense": 70,
+        "speed": 70
+      },
+      "description": {
+        "es": "Sus cristalinos orbes parecen darle al Pokémon el poder de controlar el clima libremente.",
+        "en": "Its crystalline orbs appear to give this Pokémon the power to freely control the weather."
+      },
+      "sprite": "sprites/148.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 149,
+      "identifier": "dragonite",
+      "name": "Dragonite",
+      "types": [
+        "dragon",
+        "flying"
+      ],
+      "height": 2.2,
+      "weight": 210.0,
+      "baseExperience": 270,
+      "stats": {
+        "hp": 91,
+        "attack": 134,
+        "defense": 95,
+        "specialAttack": 100,
+        "specialDefense": 100,
+        "speed": 80
+      },
+      "description": {
+        "es": "A pesar del tamaño que tiene y de lo pesado que es, puede volar. Es capaz de dar la vuelta al mundo en solo 16 horas.",
+        "en": "It can fly in spite of its big and bulky physique. It circles the globe in just 16 hours."
+      },
+      "sprite": "sprites/149.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 150,
+      "identifier": "mewtwo",
+      "name": "Mewtwo",
+      "types": [
+        "psychic"
+      ],
+      "height": 2.0,
+      "weight": 122.0,
+      "baseExperience": 306,
+      "stats": {
+        "hp": 106,
+        "attack": 110,
+        "defense": 90,
+        "specialAttack": 154,
+        "specialDefense": 90,
+        "speed": 130
+      },
+      "description": {
+        "es": "Fue creado por un científico tras años de horribles experimentos de ingeniería genética.",
+        "en": "It was created by a scientist after years of horrific gene-splicing and DNA-engineering experiments."
+      },
+      "sprite": "sprites/150.png",
+      "spriteFemale": null
+    },
+    {
+      "id": 151,
+      "identifier": "mew",
+      "name": "Mew",
+      "types": [
+        "psychic"
+      ],
+      "height": 0.4,
+      "weight": 4.0,
+      "baseExperience": 270,
+      "stats": {
+        "hp": 100,
+        "attack": 100,
+        "defense": 100,
+        "specialAttack": 100,
+        "specialDefense": 100,
+        "speed": 100
+      },
+      "description": {
+        "es": "Varios científicos lo consideran el antecesor de los Pokémon porque usa todo tipo de movimientos.",
+        "en": "Because it can use all kinds of moves, many scientists believe Mew to be the ancestor of Pokémon."
+      },
+      "sprite": "sprites/151.png",
+      "spriteFemale": null
+    }
+  ]
+}
